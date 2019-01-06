@@ -1,18 +1,10 @@
-# Homework 5 for 500 (Due at noon on 2018-03-17)
-
-## Answer Sketch is now available
-
-- Here's the [R Markdown file](https://raw.githubusercontent.com/THOMASELOVE/500-2018/master/assignments/homework5/hw5_sketch.Rmd)
-- Here's an [HTML version of the sketch](https://htmlpreview.github.io/?https://github.com/THOMASELOVE/500-2018/blob/master/assignments/homework5/hw5_sketch.html) set up to be viewed.
-- Here's a [PDF version of the sketch](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/homework5/hw5_sketch.pdf), suitable for download.
+# Homework 5 for 500 (Due 2019-04-04)
 
 ## Submission Details
 
-For "A" credit, submit your work via canvas.case.edu before noon on Friday 2018-03-17. Note that we do not have class that week.
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-04-04.
 
-- If for some reason, you cannot make that deadline, submit the work within 48 hours of the deadline for "B" credit.
-- All homework must be submitted within 48 hours of the deadline to pass the course.
-- Again, I recommend a close look at [the toy example](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code/toy_example) and other examples from our [Data and Code page](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code).
+Again, I recommend a close look at [the toy example](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code/toy_example) and other examples from our [Data and Code page](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code).
 
 ## Requirements
 
