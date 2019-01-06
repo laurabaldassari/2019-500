@@ -1,15 +1,19 @@
 # 2019-500
 
-This is the main Web Site for all materials related to PQHS 500 in Spring 2019.
+This is the main Web Site for all materials related to PQHS 500 in Spring 2019. 
 
 ## Key Links
 
 - The syllabus may be found at https://thomaselove.github.io/2019-500-syllabus/.
 - The [course schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now available, too. 
-
-Our first class will be **2019-01-24 at 8:30 AM** in Wolstein Research Building, room 1217. Please be on time, and bring a laptop.
+- Material related to the Homework, Essay and Observational Studies in Action [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
+- Examples of [Data and Code](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code) from Dr. Love.
+- Material related to the Course [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects) information.
+- Presentation [Slides](https://github.com/THOMASELOVE/2019-500/tree/master/slides) from class. 
 
 ## Before Our First Class
+
+Our first class will be **2019-01-24 at 8:30 AM** in Wolstein Research Building, room 1217. Please be on time, and bring a laptop, having worked through the material listed below to obtain and read part of the book, and to download and install necessary software.
 
 ### The Book You Need To Buy
 
