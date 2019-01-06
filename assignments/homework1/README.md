@@ -2,7 +2,7 @@
 
 ## Submission Details
 
-Submit your work via canvas.case.edu before noon on 2019-01-31.
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-01-31.
 
 ## 1. Get access to the DIG training data
 
