@@ -2,12 +2,12 @@
 
 ## Submission Details
 
-You will submit your final project materials in two parts. Submit all projects through canvas.case.edu
+You will submit your final project materials in two parts. Submit all projects through [Canvas](https://canvas.case.edu/).
 
-1. By **11 PM on April 18**, you will submit your pre-presentation versions of your [Abstract](https://github.com/THOMASELOVE/500-2018/blob/master/projects/final/README.md#the-abstract) and [Slides](https://github.com/THOMASELOVE/500-2018/blob/master/projects/final/README.md#the-presentation). The same deadline for Abstract and Slides applies to everyone, regardless of when you are actually giving your presentation (April 19 or 26).
-2. By **noon on May 1**, you will submit your final set of materials, including your abstract and slides (again, with revisions as necessary), your data set, R Markdown file and HTML document including a **discussion** [as outlined below](https://github.com/THOMASELOVE/500-2018/blob/master/projects/final/README.md#the-final-set-of-deliverables-due-may-1-at-noon).
+1. By **6 PM on April 24**, you will submit your pre-presentation versions of your [Abstract](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-abstract) and [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation). The same deadline for Abstract and Slides applies to everyone, regardless of when you are actually giving your presentation (April 25 or May 1).
+2. By **noon on May 6**, you will submit your final set of materials, including your abstract and slides (again, with revisions as necessary), your data set, R Markdown file and HTML document including a **discussion** [as outlined below](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-final-set-of-deliverables-due-may-6-at-noon).
 
-The remainder of this document describes these pieces, and also provides some insight on [how I'd like to see you put together your presentation](https://github.com/THOMASELOVE/500-2018/blob/master/projects/final/README.md#some-suggestions-and-a-potential-outline-for-your-presentation), and [how you will be evaluating the presentations](https://github.com/THOMASELOVE/500-2018/blob/master/projects/final/README.md#evaluating-the-project-presentations).
+The remainder of this document describes these pieces, and also provides some insight on [how I'd like to see you put together your presentation](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#some-suggestions-and-a-potential-outline-for-your-presentation), and [how you will be evaluating the presentations](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#evaluating-the-project-presentations).
 
 **ASK QUESTIONS EARLY. It's always easier to make adjustments when time pressure isn't a major issue.**
 
@@ -24,7 +24,7 @@ The version of your Abstract that you submit on April 18 should be complete. If 
 
 ## The Presentation
 
-After all of the project proposals have been approved, we will settle on a schedule for the presentations (some will be on April 19, some on April 26.) Your slides must be submitted prior to the presentation (by 11 PM on April 18) in either PDF or Powerpoint format, regardless of which day you are speaking on.
+After all of the project proposals have been approved, we will settle on a schedule for the presentations (some will be on April 25, some on May 1.) Your slides must be submitted prior to the presentation (by 6 PM on April 24) in either PDF or Powerpoint format, regardless of which day you are speaking on.
 
 Broadly, your slides will include an introduction which provides a foundation by motivating and clearly stating the research questions you studied, a main section which summarizes your pre-data collection beliefs, the key models and analytical results, and the critical findings of the study, and a conclusion, which provides insight into how your knowledge of the problem you studied has changed as a result of the project, as well as highlighting what you believe to be the key takeaways (both statistical and study-specific) for your audience. These sections should be keyed to slides, smoothing transitions, and forcing you to "tell us what you're going to tell us, tell us, then tell us what you told us."  Plan for 25 minutes of total time, which should include about 18 minutes of slides, allowing 3-4 minutes for asking and answering questions during the talk, and 3-4 minutes after the talk.
 
@@ -74,11 +74,11 @@ All students must attend all presentations (you will be providing both oral and 
 
 I am open to suggestions about other questions that might be useful. Just send them along. Thanks.
 
-## The Final Set of Deliverables (due May 1 at NOON)
+## The Final Set of Deliverables (due May 6 at NOON)
 
-Submit via canvas.case.edu your final project materials by NOON on May 1. This will include five key items:
+Submit via canvas.case.edu your final project materials by NOON on May 6. This will include five key items:
 
-1. An updated **Abstract** with any necessary corrections to the one submitted April 18 (if there are no changes, please submit this anyway and indicate that you have made no changes.)
+1. An updated **Abstract** with any necessary corrections to the one submitted April 24 (if there are no changes, please submit this anyway and indicate that you have made no changes.)
 2. Updated **Slides** with necessary corrections or amplifications to that presented in class (again, if there are no changes, please submit this anyway and indicate that you have made no changes.)
 3. A copy of the **Data Set** (as a .csv file) or, if that is impossible, a dummy data set containing all variables used in your analyses, and a single, representative (though possibly disguised) row of data,
 4. a well-annotated **R Markdown** file that takes your submitted data set and flawlessly produces a document containing all of the analyses described in your abstract, slides or discussion, and
