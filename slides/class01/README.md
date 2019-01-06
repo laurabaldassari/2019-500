@@ -2,7 +2,7 @@
 
 The slides for Class 1 are [now available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class01/500_2018_slides_class01.pdf).
 
-Announcements:
+## Announcements:
 
 1. Please review the Google Doc roster **to be posted** (you'll need to be logged in to Google via your CWRU account) and: 
     - a. Make sure the information I've provided there is correct and complete. If it's not, edit what you see until it is.
