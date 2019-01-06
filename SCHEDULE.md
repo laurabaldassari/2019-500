@@ -17,7 +17,8 @@ Class | Date | Key Information
 6 | 03-07 | [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3), [Chapter 9 Essay](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/essayprompts.md#prompt-for-chapter-9-sensitivity-to-bias-due-before-class-6), Rosenbaum Chapter 9
 -- | 03-14 | SPRING BREAK at CWRU (no class)
 7 | 03-21 | [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) due. [Chapter 10 or Chapter 11 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#for-class-8-you-will-need-to-read-chapters-10-and-11), Rosenbaum Chapters 10 and 11.
-8 | 03-28 |  [OSIA second reviewers](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/OSIA/README.md#second-reviewer) assigned. and [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due.
+8 | 03-28 |  [OSIA second reviewers](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/OSIA/README.md#second-reviewer) assigned.
+-- | 04-01 | [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due.
 9 | 04-04 | Homework 5 due. [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 1 presentations
 10 | 04-11 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 2 presentations, [Chapter 12 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-12-biases-from-general-dispositions-due-before-class-9), Rosenbaum Chapter 12
 11 | 04-18 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 3 presentations, [Chapter 13 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-13-instruments-due-for-class-12), Rosenbaum Chapters 13-14.
