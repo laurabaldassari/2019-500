@@ -22,11 +22,11 @@ Another requirement of the course is an *Observational Studies in Action* presen
 
 More details on the Observational Studies in Action work [are available here](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA).
 
-## Essays in reaction to Rosenbaum's text - 6 deliverables
+## Essays in reaction to Rosenbaum's text - 5 deliverables
 
-You'll write one essay (of 175-250 words) regarding each of several chapters from Rosenbaum's *Observation & Experiment* text, specifically Chapters 7, 8, 9, either 10 or 11, and 12 and 13, in response to [prompts I have provided](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md). 
+You'll write one essay (of 175-250 words) regarding each of several chapters from Rosenbaum's *Observation & Experiment* text, specifically Chapters 7, 8, 9, either 10 or 11, and 12, in response to [prompts I have provided](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md). 
 
-- The essays begin February 14, and are due on February 14, 28, then March 7, 21, April 11 and 18. 
+- The essays begin February 14, and are due on February 14, 28, then March 7, 21, and April 11. 
 
 ## Homework Assignments - 5 deliverables
 
