@@ -41,4 +41,4 @@ The course uses R, R Studio and R Markdown, as you likely did in working with me
 
 ## One Last Thing
 
-If you are interested in audio-recording the class, please let me know.
+If you are interested in and capable of audio-recording the class, please let Dr. Love know.
