@@ -5,7 +5,7 @@ All classes meet on Thursdays from 8:30 - 11:00 AM in WRB 1217
 Class | Date | Key Information
 :---: | -----------: | ----------------------------------------------------------------------------------------------
 -- | 01-17 | No class (Dr. Love is out of town) 
-1 | 01-24 | Setting Expectations and Getting Started, Rosenbaum, Preface and Chapters 1-2
+1 | 01-24 | Setting Expectations and Getting Started, Rosenbaum: Preface and Chapters 1-2
 2 | 01-31 | [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) due, Rosenbaum Chapters 3-4
 -- | Feb | Dr. Love must approve your [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) **in February**. 
 -- | Feb | [Observational Studies in Action](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) study claims must be completed **in February**. 
