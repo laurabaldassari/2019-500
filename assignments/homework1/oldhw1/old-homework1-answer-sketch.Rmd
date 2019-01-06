@@ -1,0 +1,272 @@
+---
+title: "Old Assignment 1 Answer Sketch"
+author: "Thomas E. Love"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+fontsize: 12pt
+geometry: margin=1in
+---
+
+```{r set-options, echo=FALSE, cache=FALSE}
+knitr::opts_chunk$set(comment=NA)
+# add other options as desired - main script begins on line 140
+```
+
+```{r add libraries you need, echo=FALSE, message=FALSE}
+library(Hmisc); library(tableone); library(tidyverse)
+# add additional libraries here if you need them
+```
+
+```{r read in data sets you will use, echo=FALSE}
+hw1 <- read.csv("oldhw1.csv") %>% tbl_df
+# don't forget to drop the hashtag so as to uncomment
+```
+
+
+# Looking Over the Data Set
+
+I will start with a quick summary to be sure things are imported properly in the `hw1` data set...
+
+```{r summary of hw1 data}
+summary(hw1)
+```
+
+## Using the `describe` function
+
+Alternatively, we could use the `describe` function, which is part of the `Hmisc` library...
+
+```{r describe hw1 data}
+library(Hmisc)
+describe(hw1)
+```
+
+## Glimpsing the data's structure
+
+Or, perhaps we just want to see the structure of the data and some of the first few values in each variable, in which case, the `str` command would help, or we could use the `dplyr` library's `glimpse` command...
+
+```{r glimpse hw1 data}
+library(dplyr)
+glimpse(hw1)
+```
+
+The two `treatment` options are named "Treated" and "Not Treated", as opposed to "Treated" and "Untreated". Anything so that the thing I wanted to evaluate probabilities for (i.e. Treated as compared to Not Treated) came second alphabetically is appealing, because R, by default, treats the first level in a binary categorical variable as unsuccessful and the second level as successful and generally orders levels of binary variables alphabetically.
+
+# Fitting a Logistic Regression Model using the `glm` function
+
+```{r fitting logistic regression}
+m1 <- glm(treatment == "Treated" ~ 
+            cov1 + cov2 + cov3 + cov4 + female, 
+          family=binomial(), data=hw1)
+```
+
+We are fitting a model to predict the probability of "Treated" here. If we want to see what's in m1, we can type it in, and see what we get, or ask for a summary, and get some additional details.
+
+```{r looking at m1}
+m1
+summary(m1)
+```
+
+
+## Storing Probabilities and Linear Predictions
+
+To store the linear predictions (i.e. log odds of the estimated probabilities,) and the estimated probabilities themselves as part of the hw1 data file, I'll use the following commands:
+
+```{r storing fitted values and linear predictions from m1}
+hw1$linpred <- m1$linear.predictors
+hw1$prob <- m1$fitted.values
+```
+
+The remaining tasks in the assignment essentially require you to obtain some numerical (perhaps) and graphical (mandatory) summaries of the estimated probabilities broken down into the two treatment groups. 
+
+# Some Numerical Summaries of the Fitted Probabilities by Treatment Group
+
+## Using `dplyr` and `summarise`
+
+The `dplyr` library can be used to compare the `probs` across the two `treatment` groups, along with some piping commands, to create a little data frame of the summaries you're interested in, as follows:
+
+```{r using dplyr tools and piping to get results by treatment group}
+hw1 %>%
+  group_by(treatment) %>%
+  summarise(avg = mean(prob), med = median(prob), sd = sd(prob)) %>%
+  arrange(avg)
+```
+
+## Using the `by` command
+
+Some of you may be more familiar with the `by` command - that works, as well...
+
+```{r using by to group results of describe by treatment group}
+by(hw1$prob, hw1$treatment, describe)
+```
+
+## Using the `tableone` library
+
+Or, you could use the `tableone` library to produce a summarized Table 1 describing our results...
+
+```{r build Table 1}
+varlist <- c("prob", "linpred", "cov1", "cov2", "cov3", "cov4", "female")
+tab1 <- CreateTableOne(data=hw1,
+                       vars = varlist,
+                       factorVars = c("female"),
+                       strata = c("treatment"))
+print(tab1)
+```
+
+You could even use non-parametric tests, and report quartiles for the continuous covariates...
+
+```{r update table 1}
+print(tab1, nonnorm=c("prob", "linpred", "cov1", "cov2", "cov3", "cov4"))
+```
+
+# Plotting the Fitted Probabilities by Treatment Group
+
+OK. So we've seen a numerical summary - let's focus on the important issue - a plot.
+
+The default plot in R might help - it's a boxplot.
+
+```{r plot1}
+with(hw1, 
+     plot(prob ~ treatment)
+     )
+```
+
+This could be improved in numerous ways with better titles, etc. but this will get the job done for our purposes in a pinch. As we can see from either the plot or the numerical summaries, we have higher probabilities generally but not inevitably in the **treated** group, and a fair amount of overlap between the two treatment groups in terms of their fitted probabilities.
+
+Having obtained the plot you need, a rational course of action would be to save the results and your R script or Markdown file, and move on. But I'm not going to stop there.
+
+## A Fancier Boxplot
+
+```{r plot2}
+with(hw1, 
+     boxplot(prob ~ treatment, ylab="Fitted Probability of Treatment",
+             main="HW1 Logistic Regression Model Fitted Probabilities", 
+             horizontal=T, col=c("yellow", "tomato"))
+     )
+```
+
+Tomato is a color? Yes\footnote{My favorite reference for R colors is the PDF file at http://goo.gl/kZqtaI}.
+
+There are lots and lots of ways to do this sort of thing, some of which involve slicker programming tricks than these. R provides help files for every command, and googling can often help you find the command you need. 
+
+\newpage
+
+## A Boxplot using ggplot2, with Notches and Means Indicated
+
+```{r plot 3}
+ggplot(hw1, aes(x = treatment, y = prob)) +
+  geom_boxplot(notch=TRUE) +
+  stat_summary(fun.y="mean", geom="point", shape=23, size = 5, fill = "royalblue")
+```
+
+\newpage
+
+## A Violin Plot
+
+```{r plot 5}
+ggplot(hw1, aes(x = treatment, y = prob)) +
+  geom_violin() +
+  geom_boxplot(width=.1, fill="black", 
+               outlier.colour="red",
+               outlier.size=4) +
+  stat_summary(fun.y=median, geom="point",
+               fill="white", shape=21, size=2.5) +
+  theme_bw() +
+  xlab("Treatment Status") + ylab("Fitted Probability")
+```
+
+\newpage
+
+## A DotPlot to compare the probabilities, via ggplot2
+
+```{r plot 7}
+ggplot(hw1, aes(x = treatment, y = prob)) +
+  geom_dotplot(binaxis="y", binwidth=0.01, stackdir="center")
+```
+
+\newpage
+
+## A Density Plot, using ggplot2
+
+A possibly more impressive picture would be a density plot. The best way to get this (here, I'll look at the linear probability (i.e. log odds of treatment) results rather than the raw probabilities on a 0-1 scale just to see if we observe something different) uses the ggplot2 library again...
+
+```{r plot 8}
+ggplot(hw1, aes(x=linpred, fill=treatment)) + 
+  geom_density(alpha=0.3) +
+  labs(x="Linear Predictions", colour="Type", shape="Type", 
+       title="Linear Predictions By Treatment")
+```
+
+One advantage of the linear probabilities over the raw probability estimates is that the log odds results (linear probabilities) are a bit more likely to follow a normalish distribution. Again, it looks like there is fairly substantial overlap in the fitted probabilities across the treatment groups.
+
+\newpage
+
+## Another Density Plot, using ggplot2
+
+We can use color instead of fill to indicate the densities.
+
+```{r plot 9}
+ggplot(hw1, aes(x=linpred, color=treatment)) + 
+  geom_density() +
+  theme_bw()
+```
+
+
+\newpage
+
+## Our Old Standby - Comparing Distributions via Histograms
+
+The slickest approach I have here is this:
+
+```{r plot 10, message=FALSE}
+ggplot(hw1, aes(x = prob)) +
+  geom_histogram(fill="white", color="black") +
+  facet_grid(treatment ~ .) +
+  theme(strip.text = element_text(face="bold", size=rel(1.5))) +
+  xlab("Fitted Probability") + ylab("Treatment Status")
+```
+
+\newpage
+
+## A Back-to-Back Histogram
+
+A former student suggested this approach, from the `Hmisc` library. There are likely better ways to get such a plot out of R.
+
+```{r plot 11}
+# Note: requires Hmisc library be loaded
+outhist <- histbackback(split(hw1$prob, hw1$treatment), probability=TRUE,
+                        xlim = c(-5,5),
+                        main="Back to Back Histogram of Fitted Probabilities")
+barplot(-outhist$left, col="light blue", horiz=TRUE, space=0, add=TRUE, axes=FALSE) 
+barplot(outhist$right, col="pink", horiz=TRUE, space=0, add=TRUE, axes=FALSE)
+```
+
+\newpage
+
+# What About the ROC Curve and C Statistic?
+
+Recall that our model `m1` was
+
+`Call:  glm(formula = treatment == "Treated" ~ cov1 + cov2 + cov3 + cov4 + 
+    female, family = binomial(), data = hw1)`
+
+Since we're looking at a logistic regression, someone in a previous version of this class asked if I could show you how I get the C statistic (area under the ROC curve) for such a model. I usually use the `Epi` library ...
+
+Note that we need to specify the formula (abbreviated form in the ROC function) again, but that's it to get these results. 
+
+- The C statistic (area under the curve) for this logistic regression model is 0.786
+- Very briefly, the ability of the model's predicted values to discriminate between patients with one outcome vs. the other is quantified by the area under the curve, also called the C statistic or concordance index, which ranges from 0.5 (discrimination is not better than chance) to 1.0 (perfect discriminating power.)
+- The ROC procedure comes from signal detection theory and has been adopted into the language of diagnostic testing, essentially treating the response in the logistic regression model as the true status variable, and the set of predictors as the test to be evaluated by things like sensitivity, specificity, and positive and negative predictive values based on dichotomizing along the levels of the predictor set. 
+- For more on the ROC, visit Wikipedia for Receiver Operating Characteristic. Or try Google.
+- A value of 0.786 would indicate a less-than-terrific model in terms of this issue. Values of 0.8 or even 0.9 are usually needed to declare the model to be reasonably accurate in this sense.
+
+
+```{r ROC and C statistic, fig.height=8.5, message=FALSE}
+library(Epi)
+par(mfrow=c(2,1))
+ROC(form=(hw1$treatment=="Treated" ~ hw1$cov1 +
+            hw1$cov2 + hw1$cov3 + hw1$cov4 + hw1$female))
+```
+
