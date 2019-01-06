@@ -19,7 +19,7 @@ Class | Date | Key Information
 7 | 03-21 | [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) due. [Chapter 10 or Chapter 11 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#for-class-8-you-will-need-to-read-chapters-10-and-11), Rosenbaum Chapters 10 and 11.
 8 | 03-28 |  [OSIA second reviewers](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/OSIA/README.md#second-reviewer) assigned.
 -- | 04-01 | [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due.
-9 | 04-04 | Homework 5 due. [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 1 presentations
+9 | 04-04 | [Homework 5](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework5) due. [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 1 presentations
 10 | 04-11 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 2 presentations, [Chapter 12 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-12-biases-from-general-dispositions-due-before-class-9), Rosenbaum Chapter 12
 11 | 04-18 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 3 presentations, Rosenbaum Chapters 13-14.
 -- | 04-24 | 6 PM: All Pre-Presentation Project Abstract and Slides are due. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
