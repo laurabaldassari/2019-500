@@ -1,6 +1,8 @@
 # The `match1` Example
 
-This is the place to find code for the `match1` example. We’ll use a small, simulated example to demonstrate some of the tools available in the Matching package. The data can be found in the match1.csv data file on the course website. 
+This is the place to find code for the `match1` example. I hope to build a new version of this soon.
+
+We’ll use a small, simulated example to demonstrate some of the tools available in the Matching package. The data can be found in the match1.csv data file on the course website. 
 
 The subjects are identified by ID #s in the `subject` variable (1-300), and we have 
 
