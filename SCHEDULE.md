@@ -28,3 +28,5 @@ Class | Date | Key Information
 -- | 05-06 | Noon: Final Project Materials are due. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 
 The book we're reading together, referred to as Rosenbaum above is Paul Rosenbaum's *Observation and Experiment: An Introduction to Causal Inference*, published in 2017 by Harvard University Press. The ISBN-13 number is 978-0674975576. The book is available electronically or in hardcover from Amazon and other retailers.
+
+All deliverables in this course should be submitted via [Canvas](https://canvas.case.edu/), unless Dr. Love explicitly states otherwise.
