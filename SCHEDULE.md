@@ -21,7 +21,7 @@ Class | Date | Key Information
 -- | 04-01 | [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due.
 9 | 04-04 | Homework 5 due. [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 1 presentations
 10 | 04-11 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 2 presentations, [Chapter 12 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-12-biases-from-general-dispositions-due-before-class-9), Rosenbaum Chapter 12
-11 | 04-18 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 3 presentations, [Chapter 13 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-13-instruments-due-for-class-12), Rosenbaum Chapters 13-14.
+11 | 04-18 | [OSIA](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) group 3 presentations, Rosenbaum Chapters 13-14.
 -- | 04-24 | 6 PM: All Pre-Presentation Project Abstract and Slides are due. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 12 | 04-25 | Project Presentations Set 1
 13 | 05-01 | Last Class / Project Presentations Set 2
