@@ -28,4 +28,4 @@ I want you to establish relevant and interesting research questions related to a
 - A final set of materials, including a revised abstract and presentation slides, but also a data set, R Markdown file and HTML results, including a **discussion** is due at noon on May 6.
 - For complete details on the final set of materials for the project, [go here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 
-       
+Every part of the Course Project should be submitted through [Canvas](https://canvas.case.edu/) unless I explicitly state otherwise.
