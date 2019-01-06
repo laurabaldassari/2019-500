@@ -1,19 +1,9 @@
-# Homework 3 for 500 (Due 2018-02-22)
-
-## Post-Submission Materials
-
-The Answer Sketch for Homework 3 is now posted.
-
-- Download the [R Markdown file](https://raw.githubusercontent.com/THOMASELOVE/500-2018/master/assignments/homework3/homework3-sketch.Rmd)
-- View the [HTML result](http://htmlpreview.github.io/?https://github.com/THOMASELOVE/500-2018/blob/master/assignments/homework3/homework3-sketch.html)
-- Download or View the [PDF result](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/homework3/homework3-sketch.pdf)
+# Homework 3 for 500 (Due 2019-03-07)
 
 ## Submission Details
 
-For "A" credit, submit your work via canvas.case.edu before noon on 2018-02-22. 
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-03-07.
 
-- If for some reason, you cannot make that deadline, submit the work within 48 hours of the deadline for "B" credit.
-- All homework must be submitted within 48 hours of the deadline to pass the course.
 - I recommend a close look at [the toy example](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code/toy_example) and other examples from our [Data and Code page](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code).
 
 ## Data
