@@ -1,8 +1,8 @@
-# Homework 2 for 500 (Due 2018-02-07)
+# Homework 2 for 500 (Due 2019-02-07)
 
 ## Submission Details
 
-Submit your work via canvas.case.edu before noon on 2018-02-07. 
+Submit your work via canvas.case.edu before noon on 2019-02-07. 
 
 ## 1. Create a sample.
 
