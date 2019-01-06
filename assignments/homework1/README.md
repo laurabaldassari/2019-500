@@ -1,12 +1,8 @@
-# Homework 1 for 500 (Due 2018-01-31)
+# Homework 1 for 500 (Due 2019-01-31)
 
 ## Submission Details
 
-For full credit, submit your work via canvas.case.edu before **4 PM** on 2018-01-31. 
-
-- If for some reason, you cannot make that deadline, submit the work within 48 hours of the deadline for partial credit.
-- All homework must be submitted within 48 hours of the deadline to pass the course.
-- Don't miss the **big hint** at the bottom of this page.
+Submit your work via canvas.case.edu before noon on 2019-01-31.
 
 ## 1. Get access to the DIG training data
 
