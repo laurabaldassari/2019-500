@@ -4,6 +4,7 @@ The **toy** example is 100% fictional, and shows a (relatively) simple way to do
 
 - [toy2019.csv](https://raw.githubusercontent.com/THOMASELOVE/2019-500/master/data-and-code/toy_example/toy2019.csv) data set with 400 observations
 - The code and script file written in R Markdown: [toy_2019_analysis.Rmd](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.Rmd)
+- View the PDF output for toy_2019_analysis](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.pdf). 
 - View the [HTML output for toy_2019_analysis](https://htmlpreview.github.io/?https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.html), generated from the Markdown file.
 
 ### The toy example addresses the following thirteen tasks
