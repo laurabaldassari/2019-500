@@ -3,11 +3,11 @@
 As the semester progresses, we are going to read a book together that you'll need to obtain as soon as possible.
 
 - Paul Rosenbaum's *Observation and Experiment: An Introduction to Causal Inference*, published in 2017 by Harvard University Press. The ISBN-13 number is 978-0674975576. The book is available electronically or in hardcover from Amazon and other retailers.
-- Details on when we'll read each chapter of the book are available in the Course Schedule. I encourage you to read the Preface and Chapters 1-2 as soon as possible, certainly before our first class meeting.
+- Details on when we'll read each chapter of the book are available in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md). I encourage you to read the Preface and Chapters 1-2 as soon as possible, certainly before our first class meeting on 2019-01-24.
 
 # Other References and Resources
 
-Many additional sources will be presented and referenced in class, and those are gathered below, along with other references that I've used in the past. The PDF files [are available here](https://github.com/THOMASELOVE/2019-500/tree/master/texts). Some are password-protected. The password will be revealed at the first class.
+Many additional sources will be presented and referenced in class, and those are gathered below, along with other references that I've used in the past. I expect you will read some, but not all of these items, depending on what is most useful to you. The PDF files [are available here](https://github.com/THOMASELOVE/2019-500/tree/master/texts). Some are password-protected. The password will be revealed at the first class.
 
 - Abramson John, Chapter 2 "[Spinning the Evidence](https://github.com/THOMASELOVE/2019-500/blob/master/texts/Abramson-OverdosedAmerica-chapter2.pdf)" from *Overdosed America*
 - Ahmed Ali et al. (including Love TE) 2006 [Outcomes in ambulatory chronic systolic and diastolic heart failure](https://github.com/THOMASELOVE/2019-500/blob/master/texts/Ahmed%20et%20al%202006%20Am%20Heart%20J.pdf). *American Heart Journal*
