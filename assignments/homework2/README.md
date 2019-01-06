@@ -1,12 +1,8 @@
-# Homework 2 for 500 (Due 2018-02-01)
-
-## Answer Sketch is now posted
-
-You have your choice of [the R Markdown version](https://raw.githubusercontent.com/THOMASELOVE/500-2018/master/assignments/homework2/homework2_sketch.Rmd), or [view the HTML document](http://htmlpreview.github.io/?https://github.com/THOMASELOVE/500-2018/blob/master/assignments/homework2/homework2_sketch.html), or [view/download the PDF](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/homework2/homework2_sketch.pdf). 
+# Homework 2 for 500 (Due 2018-02-07)
 
 ## Submission Details
 
-Submit your work via canvas.case.edu before noon on 2018-02-01. 
+Submit your work via canvas.case.edu before noon on 2018-02-07. 
 
 ## 1. Create a sample.
 
