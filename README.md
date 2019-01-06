@@ -13,7 +13,11 @@ This is the main Web Site for all materials related to PQHS 500 in Spring 2019.
 
 ## Our First Class
 
-Our first class will be **2019-01-24 at 8:30 AM** in Wolstein Research Building, room 1217. Please be on time, and bring a laptop, having worked through the material listed below to obtain and read part of the book, and to download and install necessary software.
+Our first class will be **2019-01-24 at 8:30 AM** in Wolstein Research Building, room 1217. Please be on time, and bring a laptop. Before our first class you need to:
+
+1. Read the [Course Syllabus](https://thomaselove.github.io/2019-500-syllabus/) and also familiarize yourself with the contents of this web site.
+2. Obtain and read the preface and Chapters 1 and 2 of the book by Rosenbaum described below, and
+3. Download and install necessary software to a computer you control (ideally the laptop you will bring to class).
 
 ### The Book You Need For Our First Class
 
