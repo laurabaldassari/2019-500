@@ -5,7 +5,9 @@ This is the main Web Site for all materials related to PQHS 500 in Spring 2019.
 ## Key Links
 
 - The syllabus may be found at https://thomaselove.github.io/2019-500-syllabus/.
-- The course schedule is found at https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md. Our first class will be 2019-01-24 at 8:30 AM in Wolstein Research Building, room 1217. Please be on time, and bring a laptop.
+- The [course schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now available, too. 
+
+Our first class will be **2019-01-24 at 8:30 AM** in Wolstein Research Building, room 1217. Please be on time, and bring a laptop.
 
 ## Before Our First Class
 
