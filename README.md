@@ -30,7 +30,7 @@ PDFs of many supplementary texts are found [in our texts folder](https://github.
 
 ### The Software You'll Need
 
-The course uses R, R Studio and R Markdown, as you likely did in working with me in 431-432 in the past. Get your software up to date on a laptop you can bring to class, for best results. We'll hope you have all of this done before the first class, but if you have problems, we can deal with them at that session.
+The course uses R, R Studio and R Markdown, as were used in 431-432. Get your software up to date on a laptop you can bring to class, for best results. We'll hope you have all of this done before the first class, but if you have problems, we can deal with them at that session. You'll need to have all of this accomplished in order to do your first homework assignment, which is due 2019-01-31.
 
 1. Download R (R 3.5.2 or later) from https://cran.case.edu/.
 2. Download R Studio Desktop (open source edition: version 1.1.463 or later is OK) from https://www.rstudio.com/products/rstudio/download/#download.
