@@ -26,7 +26,7 @@ The course uses R, R Studio and R Markdown, as you likely did in working with me
 
 - Download R (R 3.5.2 or later) from https://cran.case.edu/.
 - Download R Studio Desktop (open source edition) (version 1.1.463 or later is fine) from https://www.rstudio.com/products/rstudio/download/#download.
-- The list of [software packages we'll install can be found here](https://github.com/THOMASELOVE/2019-500/blob/master/PACKAGES.md).
+- Install the necessary R [software packages we'll use](https://github.com/THOMASELOVE/2019-500/blob/master/PACKAGES.md).
 - If you need additional installation instructions, we recommend using [Dr. Love's 431 instructions](https://github.com/THOMASELOVE/431-2018/tree/master/software), or [these Stat 545 instructions](https://stat545.com/block000_r-rstudio-install.html).
 
 ## Getting Help
