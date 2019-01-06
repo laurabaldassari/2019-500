@@ -6,9 +6,9 @@ This is the main Web Site for all materials related to PQHS 500 in Spring 2019.
 
 - The syllabus may be found at https://thomaselove.github.io/2019-500-syllabus/.
 - The [course schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now available, too. 
-- Material related to the Homework, Essay and Observational Studies in Action [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
 - Examples of [Data and Code](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code) from Dr. Love.
-- Material related to the Course [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects) information.
+- Material related to the Homework, Essay and Observational Studies in Action [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
+- Material related to the Course [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects).
 - Presentation [Slides](https://github.com/THOMASELOVE/2019-500/tree/master/slides) from class. 
 
 ## Our First Class
