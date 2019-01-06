@@ -10,3 +10,4 @@ Announcements:
     - c. Specify your current status (Full-Time Student, Rheumatologist at Cleveland Clinic, etc.)
     - d. If you're not on the roster, add yourself, please! And let me know.
 
+2. If anyone is interested in audio-recording the class, please let me know.
