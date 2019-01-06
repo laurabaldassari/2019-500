@@ -1,11 +1,9 @@
-# Homework 4 for 500 (Due 2018-03-01)
+# Homework 4 for 500 (Due 2018-03-21)
 
 ## Submission Details
 
-For "A" credit, submit your work via canvas.case.edu before noon on 2018-03-01. 
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-03-21.
 
-- If for some reason, you cannot make that deadline, submit the work within 48 hours of the deadline for "B" credit.
-- All homework must be submitted within 48 hours of the deadline to pass the course.
 - I recommend a close look at [the toy example](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code/toy_example) and other examples from our [Data and Code page](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code).
 
 ## Data
