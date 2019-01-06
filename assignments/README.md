@@ -26,7 +26,7 @@ More details on the Observational Studies in Action work [are available here](ht
 
 You'll write one essay (of 175-250 words) regarding each of several chapters from Rosenbaum's *Observation & Experiment* text, specifically Chapters 7, 8, 9, either 10 or 11, and 12, in response to [prompts I have provided](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md). 
 
-- The essays begin February 14, and are due on February 14, 28, then March 7, 21, and April 11. 
+- The essays are due on February 14, 28, then March 7, 21, and April 11. 
 
 ## Homework Assignments - 5 deliverables
 
