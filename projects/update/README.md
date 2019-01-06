@@ -2,7 +2,7 @@
 
 ## Submission
 
-The Project Update can be submitted through canvas.case.edu any time in March, but is due at noon on April 3.
+The Project Update can be submitted to [Canvas](https://canvas.case.edu/) any time in March, but is due at noon on April 1. 
 
 ## Details
 
