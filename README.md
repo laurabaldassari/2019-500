@@ -7,7 +7,9 @@ This is the main Web Site for all materials related to PQHS 500 in Spring 2019.
 - The syllabus may be found at https://thomaselove.github.io/2019-500-syllabus/.
 - The course schedule is found at https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md. Our first class will be 2019-01-24 at 8:30 AM in Wolstein Research Building, room 1217. Please be on time, and bring a laptop.
 
-## The Book You Need To Buy
+## Before Our First Class
+
+### The Book You Need To Buy
 
 The book we're reading together this semester is Paul Rosenbaum's *Observation and Experiment: An Introduction to Causal Inference*, published in 2017 by Harvard University Press. The ISBN-13 number is 978-0674975576. The book is available electronically or in hardcover from Amazon and other retailers.
 
@@ -16,7 +18,7 @@ The book we're reading together this semester is Paul Rosenbaum's *Observation a
 
 PDFs of many supplementary texts are found [in our texts folder](https://github.com/THOMASELOVE/2019-500/tree/master/texts). Some are password-protected, and we will learn the password in our first class on 2019-01-24.
 
-## The Software You'll Need
+### The Software You'll Need
 
 The course uses R, R Studio and R Markdown, as you likely did in working with me in 431-432 in the past. Get your software up to date on a laptop you can bring to class, for best results.
 
