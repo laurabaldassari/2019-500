@@ -2,7 +2,7 @@
 
 ## Submission
 
-The Proposal is submitted through canvas.case.edu at any time in the month of February and must be approved by March 1.
+The Proposal is submitted via [Canvas](https://canvas.case.edu/) at any time in the month of February and must be approved by March 1.
 
 ## Contents
 
