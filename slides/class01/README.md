@@ -1,6 +1,6 @@
 # 500 Class 01: 2019-01-24
 
-The slides for Class 1 will be posted soon.
+The slides for Class 1 are [now available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class01/500_2018_slides_class01.pdf).
 
 Announcements:
 
