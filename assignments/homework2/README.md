@@ -2,7 +2,7 @@
 
 ## Submission Details
 
-Submit your work via canvas.case.edu before noon on 2019-02-07. 
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-02-07. 
 
 ## 1. Create a sample.
 
