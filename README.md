@@ -38,3 +38,7 @@ The course uses R, R Studio and R Markdown, as you likely did in working with me
 
 - Dr. Love is available by email at `Thomas dot Love at case dot edu`. He is out of town 2019-01-14 through 2019-01-18.
 - Once class begins, he will be available on Thursdays from 11 AM to noon for discussion / office hours. Should you need to set up an appointment at another time, please contact him via email.
+
+## One Last Thing
+
+If you are interested in audio-recording the class, please let me know.
