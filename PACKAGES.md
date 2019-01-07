@@ -8,7 +8,7 @@ Copy and paste the following two lines of code into the Console window of R Stud
                 "devtools", "ebal", "Epi", "ez", "faraway", "fivethirtyeight", "foreign", "gapminder", 
                 "gee", "geepack", "GGally", "ggrepel", "ggridges", "ggthemes", "gridExtra", "Hmisc", 
                 "infer", "knitr", "lars", "lattice", "leaps", "lme4", "lmerTest", "magrittr", "markdown", 
-                "MASS", "Matching", "MatchIt", "mice", "mosaic", "multcomp", "NHANES", "OIsurv", "optmatch", 
+                "MASS", "Matching", "MatchIt", "mice", "mosaic", "multcomp", "NHANES", "optmatch", 
                 "pander", "pROC", "pscl", "psych", "pwr", "qcc", "QuantPsyc", "rbounds", "rmarkdown", 
                 "rmdformats", "rms", "ROCR", "rstanarm", "sandwich", "simputation", "skimr", "styler", 
                 "survey", "survival", "survminer", "tableone", "tidyverse", "twang", "vcd", "viridis")
