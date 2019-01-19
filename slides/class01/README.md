@@ -12,5 +12,5 @@ The slides for Class 1 are [now available in PDF](https://github.com/THOMASELOVE
     
 2. If anyone is interested in audio-recording the class, please let me know.
 
-3. Check [Canvas](https://canvas.case.edu) to be sure that you are connected to the course, which is likely listed as PQHS 500.
+3. Check [Canvas](https://canvas.case.edu) to be sure that you are connected to the course, which is likely listed as PQHS 500. If you're not listed, let me know.
 
