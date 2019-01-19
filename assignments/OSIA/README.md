@@ -24,7 +24,7 @@ You will give a 15-minute presentation of the background, methods and key result
 - I suggest you plan on spending about half of the time discussing the statistical and design considerations.
 - I strongly encourage you to provide useful graphs to summarize key findings.
 
-If you like, you can adapt the [outline I suggest for your final project proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final#the-presentation) for this task, although I would encourage you to think hard about what might be most useful to us in this context, rather than just applying that plan.
+If you like, you can adapt the [outline I suggest for your final project proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final#the-presentation) for this task, although I would encourage you to think hard about what might be most useful to us in this context, rather than just applying that plan. You will also submit your slides from your presentation to me, via Canvas.
 
 ## Second Reviewer
 
