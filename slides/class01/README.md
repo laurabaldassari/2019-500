@@ -9,5 +9,8 @@ The slides for Class 1 are [now available in PDF](https://github.com/THOMASELOVE
     - b. Tell me the name by which you want me to call you, just in case you've made a change recently in your preference.
     - c. Specify your current status (Full-Time Student, Rheumatologist at Cleveland Clinic, etc.)
     - d. If you're not on the roster, add yourself, please! And let me know.
-
+    
 2. If anyone is interested in audio-recording the class, please let me know.
+
+3. Check [Canvas](https://canvas.case.edu) to be sure that you are connected to the course, which is likely listed as PQHS 500.
+
