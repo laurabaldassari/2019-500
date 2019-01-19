@@ -10,6 +10,7 @@ This is the main Web Site for all materials related to PQHS 500 in Spring 2019.
 - Instructions for the Homework, Essay and Observational Studies in Action [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
 - Instructions for the Course [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects).
 - Presentation [Slides](https://github.com/THOMASELOVE/2019-500/tree/master/slides) for each class. 
+- Most class assignments are submitted through [Canvas](https://canvas.case.edu), so make sure you can access the course there.
 
 ## Our First Class
 
