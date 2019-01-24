@@ -15,3 +15,8 @@
 
 3. Check [Canvas](https://canvas.case.edu) to be sure that you are connected to the course, which is likely listed as PQHS 500. If you're not listed, let me know.
 
+## From Twitter
+
+
+
+Maybe we should get some more people to read Miguel Hernan? For instance, try [The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/).
