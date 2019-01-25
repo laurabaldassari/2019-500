@@ -16,5 +16,5 @@ Today, we will discuss:
 
 See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/1088022736117645314):
 
-![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/fay-tweet.PNG)
+![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/tweet_fay.png)
 
