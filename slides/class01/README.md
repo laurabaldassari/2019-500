@@ -1,6 +1,6 @@
 # 500 Class 01: 2019-01-24
 
-- The slides for Class 1 are [now available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class01/500_2018_slides_class01.pdf).
+- The slides for Class 1 are [now available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class01/500_2019_slides_class01.pdf).
 - An audio recording of Class 1 is now available, above.
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is the place to go for all deadlines and deliverables information. 
 
