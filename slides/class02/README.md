@@ -14,5 +14,7 @@ Today, we will discuss:
 
 ## A Useful Tip when using R to `mutate`
 
-See [Colin Fay's Tweet](https://twitter.com/_ColinFay/status/1088022736117645314)
+See [Colin Fay's Tweet](https://twitter.com/_ColinFay/status/1088022736117645314):
+
+![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/fay-tweet.PNG)
 
