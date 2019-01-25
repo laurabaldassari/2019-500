@@ -37,7 +37,7 @@ Note that I'm **NOT** asking you to do any analyses in Question 2.
 
 Use R, R Studio and R Markdown to execute a logistic regression model on the `dig1.csv` data. 
 
-Your model should be fitted to a random training sample of 5,000 subjects (be sure to specify the seed you used to select that sample) and then tested on the remaining 1,800 subjects, but you'll probably want to check for and deal with missingness in the entire sample before splitting into training and test groups. *In this case, "dealing with missingness" could be via imputation, as I'd like you to do in the rest of this semester's assignments, or by more simply developing a complete-case analysis.* Your model will predict the probability that a subject in the study will die, based on:
+Your model should be fitted to a random training sample of 5,000 subjects (be sure to specify the seed you used to select that sample) and then tested on the remaining 1,800 subjects, but you'll probably want to check for and deal with missingness in the entire sample before splitting into training and test groups. *In this case, "dealing with missingness" could be via imputation, as I'd like you to do in the rest of this semester's assignments, or by more simply developing a complete-case analysis.* Your model will predict the probability that a subject in the study will die (all causes), based on:
 
 - the subject's assigned treatment (digoxin or placebo),
 - the subject's age at randomization, 
