@@ -22,8 +22,10 @@ See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/10
 ## NEW! A nice tutorial on "positivity" and what it means
 
 - Ellie Murray (@EpiEllie on Twitter) posted a [nice causal inference explainer to Twitter on positivity](https://twitter.com/EpiEllie/status/1089219830052474880).
-- If you want a more thorough presentation (all in one place, fewer GIFs), check out the closely related version she posted to [Medium.com](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb), entitled "[Positivity: what it is and why it matters for data science](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb)". Here's her tag line:
+
+> If you are interested in understanding causal effects from data, then you need to understand the concept of positivity. This article explains what this means and why it’s important.
+
+- If you want a more thorough presentation (all in one place, fewer GIFs), check out the closely related version Ellie posted to [Medium.com](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb), entitled "[Positivity: what it is and why it matters for data science](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb)". Here's her tag line:
 
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/ellie_positivity.PNG)
 
-> Positivity means that if we want to understand causal effects of an exposure we should only include people who have a chance of having every level of exposure we care about. For example, if we always treat pregnant women, then we should not include these women in our study. Similarly if we never treat those who are allergic, we shouldn’t include them either. But if we sometimes treat people who are in pain and sometimes don’t, that’s the right set of people to look at!
