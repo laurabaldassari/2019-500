@@ -1,8 +1,18 @@
 # Homework 1 for 500 (Due 2019-01-31)
 
+# Class 2 and Homework 1 POSTPONED DUE TO COLD
+
+Due to the cold, you've probably heard that the University is closed from 7 PM on Tuesday 2019-01-29 through 7 PM on Thursday 2019-01-31. This means, naturally, that Class 02 of our 500 course will not be held on Thursday 2019-01-31. By the end of the day on Monday 2019-02-04, I expect to have the web site to accommodate this change. Let's go with this for now:
+
+- All deadlines currently listed on the web site for the 500 course will be reconsidered between now and the end of the day on Monday 2019-02-04. I won't move anything earlier, but I may or may not move things later.
+- Homework 1 is now due at **noon on Friday 2019-02-01**, so that's pushed back one day (it was originally due this Thursday at noon).
+- We'll hold Class 02 on Thursday 2019-02-07, and your reading for that session remains Rosenbaum - preface and Chapters 1-4. Homework 2 will be postponed, so it is not due on 2019-02-07.
+
+That's all I can commit to for now. I'll send an email once I've cleaned up everything on the web page. 
+
 ## Submission Details
 
-Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-01-31.
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-02-01. (**Note the change!**)
 
 ## 1. Get access to the DIG training data
 
