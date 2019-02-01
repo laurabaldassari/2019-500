@@ -1,0 +1,223 @@
+---
+title: "500 Homework 1 Answer Sketch"
+author: "Thomas E. Love"
+date: 'due 2019-01-31 (version: `r Sys.Date()`)'
+output:
+    github_document:
+        toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+```
+
+# Task 1
+
+Task 1 requires you to request the DIG data.
+
+# Task 2
+
+In task 2 you were asked to build a mock proposal for a DIG observational study. We'll discuss those in class, and so I have no real sketch here. I expect that some of Rosenbaum's writing will be of help. The questions you needed to answer were:
+
+1. What comparison do you want to make? (Select a comparison different than the one made in the original DIG paper)
+    + Did patients receiving "EXPOSURE A" have lower rates of "BAD OUTCOME" than those who received "EXPOSURE B"?
+2. Why is this of interest?
+    + "OUTCOME" is important because ...
+    + "EXPOSURE" (A or B) is important because ...
+    + (*Be sure to clearly indicate what you hypothesize the effect of EXPOSURE on OUTCOME to be.*)
+3. What are the key measures - specifically, the exposure/treatment, the primary outcome, and important covariates that are available in the data to help address your question of interest?
+    + Exposure/Treatment = A or B, and be sure to specify the way in which you will know which exposure someone receives, and whether the exposure / treatment is applied using a randomized approach, or not.
+    + Outcome = ..., and be sure to specify the variables you will use to determine the outcome, as well as the *type* of outcome, be it continuous, categorical (and if categorical, binary or multi-categorical) or survival (and if survival, is censoring involved?) 
+    + Covariates of interest: We'd be interested in anything related to treatment choice or to outcome. You should provide a list of such variables of interest. Remember to include **ONLY** things which are measured prior to the exposure/treatment of interest, or which are not possibly changed by it.
+    
+# Task 3
+
+## The Problem
+
+Here, you were to build and evaluate a logistic regression model using the DIG data.
+
+Your model should be fitted to a random training sample of 5,000 subjects (be sure to specify the seed you used to select that sample) and then tested on the remaining 1,800 subjects, but you'll probably want to check for and deal with missingness in the entire sample before splitting into training and test groups. Your model will predict the probability that a subject in the study will die, based on:
+
+- the subject's assigned treatment (digoxin or placebo),
+- the subject's age at randomization, 
+- race, 
+- sex, 
+- ejection fraction (percent), 
+- calculated body mass index, 
+- NYHA functional class, and
+- whether or not the subject currently has angina.
+
+The relevant variables in the `dig1.csv` data set are therefore: `subjectid`, `DEATH`, `TRTMT`, `AGE`, `RACE`, `SEX`, `EJF_PER`, `BMI`, `FUNCTCLS`, and `ANGINA`.
+
+Be sure to treat the categorical variables (including NYHA class, angina status, race and sex) appropriately as factors (ideally with meaningful names), and account for missingness deliberately in an appropriate way. 
+
+Your final results should include:
+
+1. a R Markdown file containing all of your code
+2. an HTML file with the results from your Markdown, which describes:
+    1. your sample preparation work including dealing with missingness and partitioning the data into training and test samples
+    2. your fitted logistic regression model (to your training sample)
+    3. the results of your application of your model to your test sample, which is best accomplished as a graph which shows the distribution of your model probability estimates in the "actually died" and "actually survived" groups within your test sample.
+
+## Setup, Packages, Data Ingest
+
+```{r}
+library(skimr); library(broom); library(simputation)
+library(janitor); library(tidyverse)
+
+dig1 <- read_csv("dig1.csv") %>% clean_names()
+
+dig1
+```
+
+## Preparing the Sample for Modeling
+
+```{r}
+dig_hw1 <- dig1 %>%
+    mutate(nyha = factor(functcls),
+           female = sex - 1,
+           race_f = fct_recode(factor(race), 
+                               "White" = "1",
+                               "Non-White" = "2"),
+           tx_f = fct_recode(factor(trtmt), 
+                                    "Placebo" = "0",
+                                    "Treatment" = "1"),
+           death_f = fct_recode(factor(death),
+                                "Died" = "1",
+                                "Survived" = "0")) %>%
+    select(subjectid, death_f, tx_f, age, race_f, female,
+           ejf_per, bmi, nyha, angina)
+```
+
+## Initial Data Summaries
+
+OK. What do we have now?
+
+```{r}
+skim_with(numeric = list(hist = NULL))
+
+skim(dig_hw1 %>% select(-subjectid))
+```
+
+Or, another way to see the counts of missing data:
+
+```{r}
+dig_hw1 %>% map_dbl(~ sum(is.na(.)))
+```
+
+Which observations are affected?
+
+```{r}
+dig_hw1 %>% filter(!complete.cases(.)) %>%
+    select(subjectid, bmi, nyha, angina)
+```
+
+
+## A "Complete Cases" Analysis and Training/Test Partition
+
+With so few missing values, a completely reasonable strategy would be to simply omit the missing data before splitting into training and test samples.
+
+```{r}
+dig_hw1_noNA <- dig_hw1 %>% drop_na()
+
+set.seed(20190131)
+dig_hw1_train <- sample_n(dig_hw1_noNA, size = 5000)
+dig_hw1_test <- anti_join(dig_hw1_noNA, dig_hw1_train)
+```
+
+Any missingness left that we missed?
+
+```{r}
+colSums(is.na(dig_hw1_train))
+colSums(is.na(dig_hw1_test))
+```
+
+### Fitting a Logistic Regression Model to the training sample
+
+```{r}
+model1 <- glm(death_f ~ tx_f + age + race_f + female + 
+                  ejf_per + bmi + nyha + angina, 
+              family = binomial(link = "logit"),
+              data = dig_hw1_train)
+
+summary(model1)
+```
+
+```{r}
+glance(model1)
+```
+
+### Applying the model to a test sample, and producing a graph
+
+```{r}
+dig_hw1_test$.fit <- predict(model1, newdata = dig_hw1_test, type = "response")
+
+ggplot(dig_hw1_test, aes(x = death_f, y = .fit, fill = death_f)) +
+  geom_boxplot() + 
+  guides(fill = FALSE) +
+  labs(y = "Estimated `model1` Probability of Death", 
+       x = "Observed Vital Status",
+       title = "Boxplot of `model1` predictions for DIG",
+      subtitle = "NAs removed")
+```
+
+## What if we instead dealt with missingness via simple imputation?
+
+As an alternative, a simple imputation might work well, too. I'll show you a simple imputation approach, making use of the `simputation` [package](https://github.com/markvanderloo/simputation), which is a good tool for simple imputation, and has [a nice vignette here](https://cran.r-project.org/web/packages/simputation/vignettes/intro.html).
+
+```{r}
+str(dig_hw1)
+
+colSums(is.na(dig_hw1))
+```
+
+We need to impute six values of `nyha` (a factor), 2 of `angina` (which is a numeric indicator variable) and 1 `bmi` (which is quantitative). I'll make some arbitrary decisions about how I'll do this, as implemented below...
+
+```{r}
+set.seed(5002019)
+
+dig_imp <- dig_hw1 %>%
+    impute_pmm(angina ~ ejf_per) %>%
+    impute_cart(nyha ~ ejf_per) %>%
+    impute_rlm(bmi ~ age + race_f + female) 
+
+colSums(is.na(dig_imp))
+```
+
+```{r}
+set.seed(201901312)
+
+dig_imp_train <- sample_n(dig_imp, size = 5000)
+dig_imp_test <- anti_join(dig_imp, dig_imp_train)
+```
+
+and now we can follow the earlier commands to fit the logistic regression model in the training set, and then assess its results in the test set.
+
+### Fitting a Logistic Regression Model to the training sample
+
+```{r}
+model2 <- glm(death_f ~ tx_f + age + race_f + female + 
+                  ejf_per + bmi + nyha + angina, 
+              family = binomial(link = "logit"),
+              data = dig_imp_train)
+
+summary(model2)
+```
+
+```{r}
+glance(model2)
+```
+
+### Applying the model to a test sample, and producing a graph
+
+```{r}
+dig_imp_test$.fit2 <- predict(model2, newdata = dig_imp_test, type = "response")
+
+ggplot(dig_imp_test, aes(x = death_f, y = .fit2, fill = death_f)) +
+  geom_boxplot() + 
+  guides(fill = FALSE) +
+  labs(y = "Estimated `model2` Probability of Death", 
+       x = "Observed Vital Status",
+      title = "Boxplot of `model2` predictions for DIG study",
+      subtitle = "NAs imputed")
+```
