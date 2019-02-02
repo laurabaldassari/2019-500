@@ -1,4 +1,4 @@
-# Homework 2 for 500 (Due 2019-02-07)
+# Homework 2 for 500 (Due 2019-02-14)
 
 ## Submission Details
 
