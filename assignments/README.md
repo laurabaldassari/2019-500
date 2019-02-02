@@ -34,8 +34,8 @@ You'll do **five homework assignments**, the first of which is due at the start 
 
 Link for Details   | Due Date | Deliverables
 -----------: | -------- | --------------------------------------------------------------------------
-[Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) | Jan 31 | Mock Proposal, Logistic Regression model with DIG data
-[Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) | Feb 7 | Fitting a "Propensity Score" Model to the DIG data
+[Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) | Feb 1 | Mock Proposal, Logistic Regression model with DIG data
+[Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) | Feb 14 | Fitting a "Propensity Score" Model to the DIG data
 [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) | Mar 7 | Using the Propensity Score in the `canc3` example, 1
 [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) | March 21 | Using the Propensity Score in the `canc3` example, 2
 [Homework 5](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework5) | April 4 | Using the Propensity Score in the DIG data example
