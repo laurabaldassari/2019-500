@@ -1,4 +1,4 @@
-# Homework 1 for 500 (Due 2019-01-31)
+# Homework 1 for 500 (Due 2019-02-01)
 
 ## The [Answer Sketch for Homework 1 is now available](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1/sketch_hw1).
 
