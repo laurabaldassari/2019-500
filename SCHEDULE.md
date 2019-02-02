@@ -10,7 +10,7 @@ Class | Date | Key Information
 -- | Feb | Dr. Love must approve your [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) **in February**. 
 -- | Feb | [Observational Studies in Action](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) study claims must be completed **in February**. 
 3 | 02-07 | Rosenbaum Chapters 5-6
-4 | 02-14 | [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) and [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-7-elaborate-theories-due-before-class-4) due, Rosenbaum Chapter 7
+4 | 02-14 | [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) **and** [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-7-elaborate-theories-due-before-class-4) due, Rosenbaum Chapter 7
 -- | 02-21 | No Class (Dr. Love is out of town / study section). 
 5 | 02-28 | [Essay on Chapter 8](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md#prompt-for-chapter-8-quasi-experimental-devices-due-before-class-5), Rosenbaum Chapter 8
 -- | 02-28 | [Project proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) and [OSIA claim](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA) must be approved **before** March 1.
