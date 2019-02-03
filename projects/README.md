@@ -20,6 +20,8 @@ I want you to establish relevant and interesting research questions related to a
 
 **NEW** You can work alone, or in a team of two on this project. To work as a team of two, you and your partner need to email Dr. Love to tell him of your desire to work together on this no later than noon on 2019-02-14.
 
+**NEW** Fill out [this form](http://bit.ly/500-2019-project-scheduling-form) to express your preferences about the timing of your final project presentation. [The form](http://bit.ly/500-2019-project-scheduling-form) is due at noon on 2019-03-05.
+
 1. The [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) for which you will submit an initial draft in February, and then a final version in March, following the deadlines in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md). For complete details on the proposal, [go here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal).
 
 2. The [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) is due at the start of April, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md). Here you will be revising your proposal, verifying that you have the data and are proceeding appropriately. For complete details on the update, [go here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update).
