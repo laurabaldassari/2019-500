@@ -10,7 +10,7 @@ Class | Date | Key Topics / Deadline
 -- | 02-01 | [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) due at Noon.
 2 | 02-07 | Potential outcomes framework, Importance of the propensity score, discuss Rosenbaum Chapters 1-4
 3 | 02-14 | Propensity Score schematics and use, discuss Rosenbaum Chapters 5-6 
--- | 02-14 | If you want to do your project in a two-person team, the two of you must get my approval to do that by Noon.
+-- | 02-14 | Two-person project teams must get my approval to team up by Noon. Email me.
 -- | 02-14 | [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) due at Noon.
 -- | 02-21 | *No Class Meeting*. (Dr. Love is out of town / AHRQ HCRT study section). 
 -- | 02-21 | [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) draft due at noon.
