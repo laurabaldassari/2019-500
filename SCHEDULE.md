@@ -4,20 +4,20 @@ All classes meet on Thursdays from 8:30 - 11:00 AM in WRB 1217
 
 Class | Date | Key Topics / Deadline
 :---: | -----------: | ----------------------------------------------------------------------------------------------
--- | 01-17 | No Class Meeting. (Dr. Love was out of town) 
+-- | 01-17 | *No Class Meeting*. (Dr. Love was out of town) 
 1 | 01-24 | Setting Expectations and Getting Started, Rosenbaum: Preface and Chapters 1-2
--- | 01-31 | No Class Meeting. (CWRU closed for the arctic blast)
+-- | 01-31 | *No Class Meeting*. (CWRU closed for the arctic blast)
 -- | 02-01 | [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) due at Noon.
 2 | 02-07 | Potential outcomes framework, Importance of the propensity score, discuss Rosenbaum Chapters 1-4
 3 | 02-14 | Propensity Score schematics and use, discuss Rosenbaum Chapters 5-6 
 -- | 02-14 | [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) due at Noon.
--- | 02-21 | No Class Meeting. (Dr. Love is out of town / study section). 
+-- | 02-21 | *No Class Meeting*. (Dr. Love is out of town / study section). 
 -- | 02-21 | [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) draft due at noon.
 4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, discuss Rosenbaum Chapter 7
 -- | 02-28 | [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon
 -- | 03-05 | Final Version of [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) due at noon
 5 | 03-07 | A Case Study - discussion of Project Proposals
--- | 03-14 | SPRING BREAK at CWRU (no class)
+-- | 03-14 | *No Class Meeting* (SPRING BREAK at CWRU)
 6 | 03-21 |  Sensitivity Analysis for Matched Samples, discuss Rosenbaum Chapter 8
 -- | 03-21 | [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) **and** [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) are each due at noon.
 7 | 03-28 | Rubin's Tobacco Litigation paper, discuss Rosenbaum Chapter 9
