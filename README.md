@@ -2,23 +2,21 @@
 
 This is the main Web Site for all materials related to PQHS 500 in Spring 2019. 
 
-# SPECIAL NOTE: CLASS 2 POSTPONED and HOMEWORK 1 DELAYED DUE TO COLD
+## Changes to the Class Since Class 01
 
-Due to the cold, you've probably heard that the University is closed from 7 PM on Tuesday 2019-01-29 through 7 PM on Thursday 2019-01-31. This means, naturally, that Class 02 of our 500 course will not be held on Thursday 2019-01-31. By the end of the day on Monday 2019-02-04, I expect to have the web site to accommodate this change. Let's go with this for now:
+For a variety of reasons (mostly that we will only meet 12 times, and that we have 26 students) several changes to the course were necessary. The highlights:
 
-- All deadlines currently listed on the web site for the 500 course will be reconsidered between now and the end of the day on Monday 2019-02-04. I won't move anything earlier, but I may or may not move things later.
-- Homework 1 is now due at noon on Friday 2019-02-01, so that's pushed back one day (it was originally due this Thursday at noon).
-- We'll hold Class 02 on Thursday 2019-02-07, and your reading for that session remains Rosenbaum - preface and Chapters 1-4. Homework 2 will be postponed, so it is not due on 2019-02-07.
-
-That's all I can commit to for now. I'll send an email once I've cleaned up everything on the web page. 
-
+- The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now up to date on all deliverables, deadlines, and specifies what we'll be talking about in each of our class sessions.
+- Several changes have been made to the Project. You'll notice, for instance, that Project Presentations will be held in classes 10, 11 and 12, not just 11 and 12. I've also decided to allow people to work on the Project in groups of two, if they want to.
+- The Observational Studies in Action assignment has been cancelled for 2019.
+- Many other deadlines have been moved around. I've tried to update everything on the web site accordingly. If I missed something, please let me know. Again, the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is where I will go to resolve any discrepancies. I've also updated Canvas regarding any deliverables that go there.
 
 ## Key Links
 
 - The syllabus may be found at https://thomaselove.github.io/2019-500-syllabus/.
 - The [course schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now available, too. 
 - Examples of [Data and Code](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code) from Dr. Love.
-- Instructions for the Homework, Essay and Observational Studies in Action [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
+- Instructions for the Homework and Essay and ~~Observational Studies in Action~~ [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
 - Instructions for the Course [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects).
 - Presentation [Slides](https://github.com/THOMASELOVE/2019-500/tree/master/slides) for each class. 
 - Most class assignments are submitted through [Canvas](https://canvas.case.edu), so make sure you can access the course there.
