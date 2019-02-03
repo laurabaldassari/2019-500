@@ -3,7 +3,7 @@
 The course requires you to complete **three** types of "assignments". 
 
 - The [Schedule page](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) lists all deliverables for the course.
-- **NEW** As of 2019-02-03, the Observational Studies in Action assignment previously planned is **cancelled** for 2019.
+- **NEW** As of 2019-02-03, the Observational Studies in Action assignment is **cancelled** for 2019.
 
 ## Course Project - 4 deliverables
 
@@ -50,8 +50,5 @@ Instead, we discuss the HW assignments in class and I provide a detailed answer 
 1. That sounds like an excellent question to bring up on Thursday in class, and 
 2. I'm going to let you (and everyone else) flounder a bit between now and our discussion of this HW in class.
 
-## NOTE: THE Observational Studies in Action ASSIGMENT IS CANCELLED FOR 2019
-
-An archived description of the Observational Studies in Action work [is available](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/OSIA), but we won't be doing this in 2019. Please accept my apologies.
 
 
