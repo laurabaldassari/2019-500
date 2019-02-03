@@ -2,7 +2,7 @@
 
 ## Submission
 
-The Proposal is submitted via [Canvas](https://canvas.case.edu/) at any time in the month of February and must be approved by March 1.
+The Proposal is submitted via [Canvas](https://canvas.case.edu/) in two drafts. The initial draft is due in February, and the final version is due in early March, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
 
 ## Contents
 
@@ -32,7 +32,7 @@ Your proposal will be a summary (moving towards an abstract) of your proposed st
         - If your primary outcome is binary (yes/no), your primary tool will usually be logistic regression. 
         - If your primary outcome is time-to-event, your primary tool will usually be Cox regression.
 
-That should be sufficient for this first draft. You'll need to fill in additional details by the time you submit the revised abstract later in the semester. If you've written three pages or more, go back and edit until you're down to about two pages. Your eventual abstract will also include results and conclusions, but we're not there yet. All materials for the project should be submitted through canvas.case.edu
+That should be sufficient for the proposal (either your first or second draft.) You'll need to fill in additional details by the time you submit the revised abstract with the final project materials. If you've written three pages or more, go back and edit until you're down to about two pages. Your eventual abstract will also include results and conclusions, but we're not there yet. All materials for the project should be submitted through canvas.case.edu
 
 ## Frequently Asked Questions about the Proposal
 
