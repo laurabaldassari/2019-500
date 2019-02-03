@@ -19,9 +19,9 @@ Class | Date | Key Topics / Deadline
 5 | 03-07 | A Case Study - discussion of Project Proposals
 -- | 03-14 | SPRING BREAK at CWRU (no class)
 6 | 03-21 |  Sensitivity Analysis for Matched Samples, Rosenbaum 8
--- | 03-21 | [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) **and** [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) are each due at noon.
+-- | 03-21 | [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) **and** [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) are each due at noon.
 7 | 03-28 | Rubin's Tobacco Litigation paper, Rosenbaum 9
--- | 03-28 | [Chapter 9 Essay](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/essayprompts.md) **and** [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) are each due at noon. 
+-- | 03-28 | [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) **and** [Chapter 9 Essay](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/essayprompts.md) are each due at noon. 
 -- | 04-02 | [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at 3 PM.
 8 | 04-04 | Instrumental Variables, Rosenbaum 10-11
 -- | 04-04 | [Homework 5](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework5) **and** [Chapter 10/11 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon. 
