@@ -13,10 +13,10 @@ The course requires you to complete **three** types of "assignments".
 2. an **update** verifying that you have the data and are proceeding appropriately at the start of April. 
     - The **revised** deadline for this update is on the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
 3. a final 15-minute **presentation** (**NOTE NEW LENGTH**) to the class about your results accompanied by an **abstract**, and by R Markdown and HTML files that describe the work you did. 
-    - All students will submit their **abstract** at once, before any presentations are given, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
+    - All students will submit their **abstract** at the same time, before any presentations are given, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
     - Presentation slides for each project are due the day before the actual presentation, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
     - The presentations will be held during the last **three** classes of the semester, with 8-9 students in each session. You will be required to attend at least 14 of the 26 presentations, although you are encouraged to attend them all. At each presentation you attend, you will be providing feedback to your colleagues in the class.
-    - We will schedule the course presentations using a Google Form, that will be made available to you soon.
+    - We will schedule the course presentations using a Google Form that you'll complete by the deadline in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
 4. the **final presentation documents**, including everything you want me to see and incorporating any revisions to materials you presented earlier, are due as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
 
 More details on the Course Project [are available here](https://github.com/THOMASELOVE/2019-500/tree/master/projects).
