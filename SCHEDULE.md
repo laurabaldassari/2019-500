@@ -8,24 +8,24 @@ Class | Date | Key Topics / Deadline
 1 | 01-24 | Setting Expectations and Getting Started, Rosenbaum: Preface and Chapters 1-2
 -- | 01-31 | No Class Meeting. (CWRU closed for the arctic blast)
 -- | 02-01 | [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) due at Noon.
-2 | 02-07 | Potential outcomes framework, Importance of the propensity score, Rosenbaum Chapters 3-4
-3 | 02-14 | Propensity Score schematics and use, Rosenbaum Chapters 5-6 
+2 | 02-07 | Potential outcomes framework, Importance of the propensity score, discuss Rosenbaum Chapters 1-4
+3 | 02-14 | Propensity Score schematics and use, discuss Rosenbaum Chapters 5-6 
 -- | 02-14 | [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) due at Noon.
 -- | 02-21 | No Class Meeting. (Dr. Love is out of town / study section). 
 -- | 02-21 | [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) draft due at noon.
-4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, Rosenbaum 7
+4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, discuss Rosenbaum Chapter 7
 -- | 02-28 | [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon
 -- | 03-05 | Final Version of [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) due at noon
 5 | 03-07 | A Case Study - discussion of Project Proposals
 -- | 03-14 | SPRING BREAK at CWRU (no class)
-6 | 03-21 |  Sensitivity Analysis for Matched Samples, Rosenbaum 8
+6 | 03-21 |  Sensitivity Analysis for Matched Samples, discuss Rosenbaum Chapter 8
 -- | 03-21 | [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) **and** [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) are each due at noon.
-7 | 03-28 | Rubin's Tobacco Litigation paper, Rosenbaum 9
+7 | 03-28 | Rubin's Tobacco Litigation paper, discuss Rosenbaum Chapter 9
 -- | 03-28 | [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) **and** [Chapter 9 Essay](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/essayprompts.md) are each due at noon. 
 -- | 04-02 | [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at 3 PM.
-8 | 04-04 | Instrumental Variables, Rosenbaum 10-11
+8 | 04-04 | Instrumental Variables, discuss Rosenbaum Chapters 10-11
 -- | 04-04 | [Homework 5](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework5) **and** [Chapter 10/11 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon. 
-9 | 04-11 | Posner's paper comparing methods, Project Discussion, Rosenbaum 12
+9 | 04-11 | Posner's paper comparing methods, Project Discussion, discuss Rosenbaum Chapter 12
 -- | 04-11 | [Chapter 12 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon.
 -- | 04-17 | All Pre-Presentation Project Abstracts are due at 2 PM. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 -- | 04-17 | Slides for presenters 1-9 due at 4 PM
