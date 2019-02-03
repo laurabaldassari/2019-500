@@ -35,3 +35,7 @@ See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/10
 
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/ellie_positivity.PNG)
 
+
+## A Look at the Future, from [Katherine Scott](https://twitter.com/kscottz/status/1091423470087397376)
+
+![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/tweet_scott.png)
