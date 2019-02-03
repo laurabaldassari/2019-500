@@ -37,3 +37,8 @@ For each OSIA study, a "second reviewer" will be assigned on March 21 once all s
 ## Audience Role
 
 For each OSIA study, everyone will read the abstracts in advance, so that we can have some understanding of what's involved and contribute to the discussion. The papers will be posted to this section of the site as soon as they are available.
+
+# Again, the Observational Studies in Action assignment WILL NOT be part of 500 in 2019.
+
+The rest of this page is just an archive of what we would have done in that assignment. Please accept my apologies.
+
