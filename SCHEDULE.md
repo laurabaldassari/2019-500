@@ -8,7 +8,7 @@ Class | Date | Key Information
 1 | 01-24 | Setting Expectations and Getting Started, Rosenbaum: Preface and Chapters 1-2
 -- | 01-31 | Class canceled (due to CWRU being closed for the arctic blast)
 -- | 02-01 | [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1) due
-2 | 02-07 | Potential outcomes framework, The importance of the propensity score, Rosenbaum Chapters 3-4
+2 | 02-07 | Potential outcomes framework, Importance of the propensity score, Rosenbaum Chapters 3-4
 3 | 02-14 | Propensity Score schematics and use, Rosenbaum Chapters 5-6, [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) due at noon
 -- | 02-21 | No Class (Dr. Love is out of town / study section). [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) draft to Dr. Love due at noon.
 4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon
