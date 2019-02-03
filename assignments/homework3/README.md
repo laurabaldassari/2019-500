@@ -1,8 +1,8 @@
-# Homework 3 for 500 (Due 2019-03-07)
+# Homework 3 for 500 (Due 2019-03-21)
 
 ## Submission Details
 
-Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-03-07.
+Submit your work via [Canvas](https://canvas.case.edu/) before noon on 2019-03-21.
 
 - I recommend a close look at [the toy example](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code/toy_example) and other examples from our [Data and Code page](https://github.com/THOMASELOVE/500-2018/tree/master/data-and-code).
 
