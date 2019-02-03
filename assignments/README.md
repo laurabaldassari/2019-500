@@ -16,7 +16,7 @@ The course requires you to complete **three** types of "assignments".
     - All students will submit their **abstract** at the same time, before any presentations are given, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
     - Presentation slides for each project are due the day before the actual presentation, as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
     - The presentations will be held during the last **three** classes of the semester, with 8-9 students in each session. You will be required to attend at least 14 of the 26 presentations, although you are encouraged to attend them all. At each presentation you attend, you will be providing feedback to your colleagues in the class.
-    - We will schedule the course presentations using a Google Form that you'll complete by the deadline in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
+    - We will [schedule the course presentations using this Google Form](http://bit.ly/500-2019-project-scheduling-form) that you'll complete by the early March deadline in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
 4. the **final presentation documents**, including everything you want me to see and incorporating any revisions to materials you presented earlier, are due as specified in the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md).
 
 More details on the Course Project [are available here](https://github.com/THOMASELOVE/2019-500/tree/master/projects).
