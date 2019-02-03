@@ -19,7 +19,7 @@ Class | Date | Key Topics / Deadline
 -- | 03-05 | Final Version of [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) due at noon
 -- | 03-05 | Complete Project Presentation Scheduling Form by noon
 5 | 03-07 | The `match1` Example - discussion of Project Proposals
--- | 03-14 | *No Class Meeting* (SPRING BREAK at CWRU)
+-- | 03-14 | *No Class Meeting* (CWRU Spring Break)
 6 | 03-21 |  Sensitivity Analysis for Matched Samples, discuss Rosenbaum Chapter 8
 -- | 03-21 | [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) **and** [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) are each due at noon.
 7 | 03-28 | Rubin's Tobacco Litigation paper, discuss Rosenbaum Chapter 9
