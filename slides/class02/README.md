@@ -7,8 +7,8 @@
 # Changes due to Class Being Frozen Out Last Week
 
 - Homework 1 was moved back a day, so it was due on 2019-02-01.
-- Homework 2 is now due on 2019-02-14.
-- All deadlines currently listed on the web site for the 500 course will be reconsidered between now and the end of the day on Monday 2019-02-04. I won't move anything earlier, but I may or may not move things later. More to come.
+- Many deadlines for deliverables were revised. See the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) for the final word on when anything is due.
+- Probably the most obvious (and disappointing, to me) change is that the Observational Studies in Action assignment has been cancelled for 2019.
 
 ## Today, we will discuss...
 
