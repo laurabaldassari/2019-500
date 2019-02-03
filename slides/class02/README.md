@@ -10,7 +10,7 @@ For a variety of reasons (mostly that we will only meet 12 times, and that we ha
 
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now up to date on all deliverables, deadlines, and specifies what we'll be talking about in each of our class sessions.
 - Several changes have been made to the Project. You'll notice, for instance, that 
-    - Project Presentations will be held in classes 10, 11 and 12, not just 11 and 12. 
+    - Project Presentations will be held during classes 10, 11 and 12, not just 11 and 12. 
     - I've decided to allow people to work on the Project in groups of two, if they want to, so long as they email me by 2019-02-14,
     - I've given you deadlines for both the initial draft of the project proposal and a second, final draft of that proposal. 
     - Complete [this form to schedule your end-of-semester presentation](http://bit.ly/500-2019-project-scheduling-form) by March 5 at Noon.
