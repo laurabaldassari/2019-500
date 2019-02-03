@@ -1,3 +1,7 @@
+# The Observational Studies in Action assignment WILL NOT be part of 500 in 2019.
+
+The rest of this page is just an archive of what we would have done in that assignment. Please accept my apologies.
+
 # Observational Studies in Action
 
 During the semester, you will be responsible for presenting the methods and results of an observational study from the literature that uses propensity score methods. The study must be approved before March 1 by Dr. Love, and you can submit your claim on a study any time in the month of February. 
