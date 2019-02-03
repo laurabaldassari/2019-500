@@ -4,11 +4,14 @@
 - We will post the audio recording above, as soon as we can.
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is the place to go for all deadlines and deliverables information. 
 
-# Changes due to Class Being Frozen Out Last Week
+## Changes to the Class Since Class 01
 
-- Homework 1 was moved back a day, so it was due on 2019-02-01.
-- Many deadlines for deliverables were revised. See the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) for the final word on when anything is due.
-- Probably the most obvious (and disappointing, to me) change is that the Observational Studies in Action assignment has been cancelled for 2019.
+For a variety of reasons (mostly that we will only meet 12 times, and that we have 26 students) several changes to the course were necessary. The "highlights":
+
+- The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now up to date on all deliverables, deadlines, and specifies what we'll be talking about in each of our class sessions.
+- Several changes have been made to the Project. You'll notice, for instance, that Project Presentations will be held in classes 10, 11 and 12, not just 11 and 12. I've also decided to allow people to work on the Project in groups of two, if they want to.
+- The Observational Studies in Action assignment has been cancelled for 2019.
+- Many other deadlines have been moved around. I've tried to update everything on the web site accordingly. If I missed something, please let me know. Again, the [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is where I will go to resolve any discrepancies. I've also updated Canvas regarding any deliverables that go there.
 
 ## Today, we will discuss...
 
