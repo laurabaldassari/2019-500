@@ -16,7 +16,7 @@ For a variety of reasons (mostly that we will only meet 12 times, and that we ha
 - The syllabus may be found at https://thomaselove.github.io/2019-500-syllabus/.
 - The [course schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now available, too. 
 - Examples of [Data and Code](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code) from Dr. Love.
-- Instructions for the Homework and Essay and ~~Observational Studies in Action~~ [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
+- Instructions for the Homework and Essay ~~and Observational Studies in Action~~ [Assignments](https://github.com/THOMASELOVE/2019-500/tree/master/assignments).
 - Instructions for the Course [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects).
 - Presentation [Slides](https://github.com/THOMASELOVE/2019-500/tree/master/slides) for each class. 
 - Most class assignments are submitted through [Canvas](https://canvas.case.edu), so make sure you can access the course there.
