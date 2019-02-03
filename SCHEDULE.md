@@ -29,11 +29,11 @@ Class | Date | Key Topics / Deadline
 -- | 04-11 | [Chapter 12 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon.
 -- | 04-17 | All Pre-Presentation Project Abstracts are due at 2 PM. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 -- | 04-17 | Slides for presenters 1-9 due at 4 PM
-10 | 04-18 | Project Presentations 1-9
+10 | 04-18 | Final Project Presentations for presenters 1-9
 -- | 04-24 | Slides for presenters 10-18 due at 4 PM
-11 | 04-25 | Project Presentations 10-18
+11 | 04-25 | Final Project Presentations for presenters 10-18
 -- | 04-30 | Slides for final eight presenters due at 4 PM
-12 | 05-01 | Last Class: Presentations 19-26, Final Comments from Dr. Love
+12 | 05-01 | Last Class: Final Project Presentations for presenters 19-26, Final Comments from Dr. Love
 -- | 05-06 | Noon: Final Project Materials are due. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 
 The book we're reading together, referred to as Rosenbaum above is Paul Rosenbaum's *Observation and Experiment: An Introduction to Causal Inference*, published in 2017 by Harvard University Press. The ISBN-13 number is 978-0674975576. The book is available electronically or in hardcover from Amazon and other retailers.
