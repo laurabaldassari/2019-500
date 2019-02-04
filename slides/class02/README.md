@@ -1,6 +1,6 @@
 # 500 Class 02: 2019-02-07
 
-- The slides for Class 2 are [now available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class01/500_2019_slides_class02.pdf).
+- The slides for Class 2 are [now available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/500_2019_slides_class02.pdf).
 - We will post the audio recording above, as soon as we can.
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is the place to go for all deadlines and deliverables information. 
 
