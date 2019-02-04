@@ -1,6 +1,6 @@
 # 500 Class 03: 2019-02-14
 
-- The slides for Class 3 will become [available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class03/500_2019_slides_class03.pdf).
+- The slides for Class 3 are [available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class03/500_2019_slides_class03.pdf), although this is just the most recent draft.
 - We will post the audio recording above, as soon as we can.
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is the place to go for all deadlines and deliverables information. 
 
