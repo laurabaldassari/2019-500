@@ -26,3 +26,9 @@
 - If you want a more thorough presentation (all in one place, fewer GIFs), check out the closely related version Ellie posted to [Medium.com](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb), entitled "[Positivity: what it is and why it matters for data science](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb)". Here's her tag line:
 
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/ellie_positivity.PNG)
+
+## Another interesting problem with some "research"?
+
+[Vince Buffalo](https://twitter.com/vsbuffalo/status/1091790085610065920?s=11) made a number of interesting points in a tweet about Julia Belluz' article in Vox from 2019-02-01, entitled "[Eating breakfast is not a good weight loss strategy, scientists confirm](https://www.vox.com/2019/2/1/18206873/breakfast-diet-weight-loss)".
+
+
