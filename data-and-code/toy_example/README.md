@@ -6,6 +6,7 @@ The **toy** example is 100% fictional, and shows a (relatively) simple way to do
 - The code and script file written in R Markdown: [toy_2019_analysis.Rmd](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.Rmd)
 - View the [PDF output for toy_2019_analysis](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.pdf). 
 - I've placed the HTML version above, but it's [more easily viewed on RPubs](http://rpubs.com/TELOVE/toy_2019_analysis).
+- The version we'll use in class is [a Github Markdown version, available here](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.md).
 
 ### The toy example addresses the following thirteen tasks
 
