@@ -20,18 +20,23 @@ For a variety of reasons (mostly that we will only meet 12 times, and that we ha
 ## Today, we will discuss...
 
 - A Motivating Example on Aspirin and Mortality based on the Gum paper, linked on [our Texts page](https://github.com/THOMASELOVE/2019-500/blob/master/texts/README.md)
-- [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1), especially Questions 2 and 3
 - The Hormone Replacement Therapy Story
+- Assessing Causal Effects with Subclassification: Cochran's Smoking Example
+- [Homework 1](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework1), especially Questions 2 and 3
 - Rosenbaum *Observation and Experiment* Preface and Chapters 1-4
-- Tools for Assessing Causal Effects
-- Cochran's Smoking Example
 - Why Propensity Scores?
+- Using Matched Sets to Adjust for Overt Bias
 
 ## A Useful Tip when using R to `mutate`
 
 See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/1088022736117645314):
 
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/tweet_fay.png)
+
+## A Look at the Future, from [Katherine Scott](https://twitter.com/kscottz/status/1091423470087397376)
+
+![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/tweet_scott.png)
+
 
 ## NEW! A nice tutorial on "positivity" and what it means
 
@@ -44,6 +49,3 @@ See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/10
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/ellie_positivity.PNG)
 
 
-## A Look at the Future, from [Katherine Scott](https://twitter.com/kscottz/status/1091423470087397376)
-
-![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/tweet_scott.png)
