@@ -27,6 +27,10 @@ For a variety of reasons (mostly that we will only meet 12 times, and that we ha
 - Why Propensity Scores?
 - Using Matched Sets to Adjust for Overt Bias
 
+## Local EpiBookClub starts this afternoon
+
+A group of students, led by Laurie Ann Moennich and Wyatt Bensken, are reading Kieran Healy's [Data Visualization](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624/ref=sr_1_1?ie=UTF8&qid=1549469746&sr=8-1&keywords=kieran+healy) this semester. The first meeting of the group will be held today (2019-02-07) from 2:30 - 3:30 PM in Wood WG82-C. They'll discuss the Preface and Chapters 1-2. You're asked to bring yourself and your laptop. I understand snacks are involved. The book is available online at http://socviz.co/, or you can purchase a hard copy through Amazon or other retailers. If you're interested, just show up, or email Laurie at lxm303 or Wyatt at wpb27.
+
 ## A Useful Tip when using R to `mutate`
 
 See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/1088022736117645314):
