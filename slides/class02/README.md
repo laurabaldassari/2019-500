@@ -6,7 +6,7 @@
 
 ## Changes to the Class Since Class 01
 
-For a variety of reasons (mostly that we will only meet 12 times, and that we have 26 students) several changes to the course were necessary. The "highlights":
+For a variety of reasons (mostly that we will only meet 12 times, and that we have ~26~ 25 students) several changes to the course were necessary. The "highlights":
 
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is now up to date on all deliverables, deadlines, and specifies what we'll be talking about in each of our class sessions.
 - Several changes have been made to the [Project](https://github.com/THOMASELOVE/2019-500/tree/master/projects). You'll notice, for instance, that 
