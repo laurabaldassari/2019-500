@@ -40,16 +40,3 @@ See [@_ColinFay's Tweet from 2019-01-23](https://twitter.com/_ColinFay/status/10
 ## A Look at the Future, from [Katherine Scott](https://twitter.com/kscottz/status/1091423470087397376)
 
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/tweet_scott.png)
-
-
-## NEW! A nice tutorial on "positivity" and what it means
-
-- Ellie Murray (@EpiEllie on Twitter) posted a [nice causal inference explainer to Twitter on positivity](https://twitter.com/EpiEllie/status/1089219830052474880).
-
-> If you are interested in understanding causal effects from data, then you need to understand the concept of positivity. This article explains what this means and why it’s important.
-
-- If you want a more thorough presentation (all in one place, fewer GIFs), check out the closely related version Ellie posted to [Medium.com](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb), entitled "[Positivity: what it is and why it matters for data science](https://medium.com/@EpiEllie/positivity-what-it-is-and-why-it-matters-for-data-science-d5e9c0bc1fcb)". Here's her tag line:
-
-![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class02/figures/ellie_positivity.PNG)
-
-
