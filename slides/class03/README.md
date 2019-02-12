@@ -15,7 +15,20 @@
 - Positivity and Other Important Requirements for Causal Inference
 - Homework 2, which is due 2019-02-14 at noon
 - Rosenbaum, Chapters 5 and 6
-- Setting Up The Toy Example for Class 04
+- Setting Up [The Toy Example](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/toy_example) for Class 04
+
+## Announcements
+
+1. The Cleveland Chapter of the American Statistical Association's Annual Spring Conference will be held 2019-05-10, featuring Mark Ward and Doug Crabill on *Query, Wrangle, Scrape or Parse Your Big Data into Submission!*. 
+
+> This (full-day) seminar will be an introduction to the basics of data analysis tools, such as R, SQL, UNIX, awk, and data formats such as XML and/or JSON. It is a hands-on workshop. Participants will be expected to bring a laptop computer and to be prepared to learn-by-doing. No prerequisite knowledge is assumed. Instead, it is expected that participants will be eager to learn some tools for working with large data. Active learning will be used throughout the day. 
+
+- For more details, [visit this link](https://sites.google.com/view/cleveland-asa/conferences/upcoming-conference). The price for full-time students is just $50 until 2019-04-15, and pre-registration is required.
+
+2. If you're interested in attending what I believe to be the most useful academic conference I attend, or just in visiting San Diego in January 2020, consider the [International Conference on Health Policy Statistics](http://ww2.amstat.org/meetings/ichps/2020/). As [Liz Stuart reminds me](https://twitter.com/Lizstuartdc/status/1095372654155100160), invited session proposals are due March 4, but regular abstracts are due later this year.
+
+3. A reminder that we will not meet next week. Our next class is 2019-02-28, when we will discuss the [Toy Example](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/toy_example).
+
 
 ## NEW! A nice tutorial on "positivity" and what it means
 
