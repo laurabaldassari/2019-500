@@ -3,6 +3,7 @@
 - The slides for Class 3 are [available in PDF](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class03/500_2019_slides_class03.pdf).
 - We will post the audio recording above, as soon as we can.
 - The [Course Schedule](https://github.com/THOMASELOVE/2019-500/blob/master/SCHEDULE.md) is the place to go for all deadlines and deliverables information. 
+- Happy Valentine's Day, and Happy Birthday (to me)!
 
 ## Today, we will discuss...
 
