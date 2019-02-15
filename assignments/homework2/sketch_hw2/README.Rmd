@@ -3,11 +3,11 @@ title: "500 Homework 2 Answer Sketch"
 author: "Thomas E. Love"
 date: 'due 2019-02-14 (version: `r Sys.Date()`)'
 output:
+    github_document:
+        toc: yes
     html_document:
         toc: yes
         toc_float: yes
-    github_document:
-        toc: yes
 ---
 
 ## Setup and Loading Packages
