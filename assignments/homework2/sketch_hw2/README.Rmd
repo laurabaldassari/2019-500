@@ -1,0 +1,329 @@
+---
+title: "500 Homework 2 Answer Sketch"
+author: "Thomas E. Love"
+date: 'due 2019-02-14 (version: `r Sys.Date()`)'
+output:
+    html_document:
+        toc: yes
+        toc_float: yes
+    github_document:
+        toc: yes
+---
+
+## Setup and Loading Packages
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+```
+
+```{r}
+library(tableone); library(skimr); library(janitor)
+library(tidyverse)
+
+skim_with(numeric = list(hist = NULL))
+```
+
+# 1. Create a sample of 1000 subjects
+
+Create a sample of 1000 subjects from the `dig1.csv` data describing the DIG study. Specify a random seed (via `set.seed`) to select your sample of 1000 subjects. Ensure that your sample does not include any subject who has missing information on the indicator of previous myocardial infarction, `PREVMI`. (You may want to identify such subjects in advance and filter them out of the dig1 data before you sample.)
+
+So, we'll filter out anyone with missing `PREVMI` first.
+
+```{r}
+dig1_raw <- read_csv("dig1.csv") %>%
+    filter(!is.na(PREVMI))
+
+dig1_raw %>% skim(PREVMI)
+```
+
+```{r}
+set.seed(500)
+
+dig2 <- dig1_raw %>% 
+    sample_n(size = 1000) %>%
+    clean_names()
+
+dig2
+```
+
+# 2. Create a Table 1.
+
+The Table 1 should describe the data according to whether or not the subject had a previous myocardial infarction (`prevmi`) across each of these 12 variables. 
+
+Variable | Description
+-------: | -----------------------------------------------------
+`trtmt` | Treatment group (1 = DIG, 0 = Placebo)
+`age` | Age in years
+`race` | White (1) or Non-White (2)
+`sex` | Male (1) or Female (2)
+`ejf_per` | Ejection Fraction (percent)
+`chestx` | Chest X-ray (CT ratio)
+`bmi` | Body-Mass Index
+`klevel` | Serum Potassium level (mEq/l)
+`creat` | Serum Creatinine level (mg/dl)
+`chfdur` | Approximate Duration of CHF (mos.)
+`exertdys` | Dyspnea on exertion (see note)
+`functcls` | Current NYHA Functional Class (1 = I, 2 = II, 3 = III, 4 = IV)
+
+Note that the `dyspnea` categories are: 0 = None or Unknown, 1 = Present, 2 = Past, 3 = Present and Past
+
+## Data Cleaning / Factor Labeling
+
+Be sure to correctly represent each of the categorical variables as factors, rather than in the numerical form they start in. Label your factors to ease the work for the viewer, and reduce or eliminate the need to look at a codebook. Also, be sure to accurately report whether any missing values are observed in this sample.
+
+*Note*: You're going to have to do this again with a revised sample in step 4, so it's worth it to code this in a reproducible way.
+
+```{r}
+dig2a <- dig2 %>%
+    mutate(prevmi_f = fct_recode(factor(prevmi), 
+                                 Yes = "1",
+                                 No = "0"),
+           prevmi_f = fct_relevel(prevmi_f, "Yes"),
+           treat_f = fct_recode(factor(trtmt), 
+                                DIG = "1",
+                                Placebo = "0"),
+           race_f = fct_recode(factor(race), 
+                               White = "1", 
+                               "Non-white" = "2"),
+           race_f = fct_relevel(race_f, "Non-white"),
+           sex_f = fct_recode(factor(sex),
+                              F = "1",
+                              M = "2"),
+           sex_f = fct_relevel(sex_f, "M"),
+           dyspnea_f = fct_recode(factor(exertdys),
+                                  None_or_Unknown = "0",
+                                  Present = "1",
+                                  Past = "2",
+                                  Present_and_Past = "3"),
+           dyspnea_f = fct_relevel(dyspnea_f,
+                                   "None_or_Unknown", 
+                                   "Past", "Present"),
+           nyha_f = fct_recode(factor(functcls), 
+                                I = "1",
+                                II = "2",
+                                III = "3",
+                                IV = "4")) %>%
+    
+    select(subjectid, prevmi, prevmi_f, treat_f, age, 
+           race_f, sex_f, ejf_per, chestx, bmi, klevel, 
+           creat, chfdur, dyspnea_f, nyha_f)
+
+```
+
+## Summary of the Cleaned Data
+
+```{r}
+summary(dig2a)
+```
+
+And we can summarize the missingness in our sample of 1,000 people as:
+
+- `r nrow(dig2a %>% filter(is.na(klevel)))` missing `klevel` values,
+- `r nrow(dig2a %>% filter(is.na(chfdur)))` missing `chfdur` value, and
+- `r nrow(dig2a %>% filter(is.na(dyspnea_f)))` missing `dyspnea_f` status
+
+## Resulting Table 1.
+
+```{r}
+q2_t1 <- CreateTableOne(data = dig2a, 
+                    vars = c("treat_f", "age", "race_f", 
+                             "sex_f", "ejf_per", "chestx", 
+                             "bmi", "klevel", "creat", 
+                             "chfdur", "dyspnea_f", "nyha_f"),
+                    strata = c("prevmi_f"))
+q2_t1
+```
+
+There are lots of other things we could do here, including:
+
+- making decisions about Normality for each quantitative variable, which might then lead us to summarize some quantitative variables with medians and quartiles, rather than means and standard deviations, and using Wilcoxon rank sum rather than t tests for p values,
+    - an interesting idea is using the `skim` function's histograms after grouping the data by `prevmi_f` to scan and make these decisions,
+    - or we could use summary applied to the tableone object and compare the p values we would obtain in either case (if the p values are similar, then the choice must not make much of a difference)
+    - or we could work our way through a series of more serious Normality checks, with histograms, boxplots, Normal Q-Q plots, etc.
+- assessing whether an exact or approximate test might be a better choice for each categorical variable, but that's a small issue.
+- another approach would have been to leave the factor variables as they were originally and simply specify some as factors in the call to CreateTableOne. That would have left us with some tougher-to-interpret level names and orders, though.
+
+For now, I'll just leave it as it is.
+
+# 3. Build a logistic regression model.
+
+Build a logistic regression model for previous MI using the main effects of the 12 variables above. I'd call the model `m1` that predicts the log odds of previous myocardial infarction (`prevmi`) on the basis of the main effects of each of the twelve variables in your table above, for your sample of 1000 subjects. How many observations does your model actually fit results for? (This is asking for the number of subjects without any missingness, across all variables in your model.)
+
+```{r}
+m1 <- glm(prevmi ~ treat_f + age + race_f + sex_f +
+              ejf_per + chestx + bmi + klevel +
+              creat + chfdur + dyspnea_f + nyha_f,
+          data = dig2a, family = binomial(link = logit))
+
+summary(m1)
+```
+
+The sample size used by this model is 872 subjects. We know this because the output tells us that 128 of our original 1000 observations were deleted due to missingness, or because the null deviance is associated with 871 degrees of freedom, and the null deviance will always be associated with n - 1 degrees of freedom, where n is the number of observations actually used to fit the model.
+
+- Another way of determining the number of observations with complete data across all variables in the `dig2a` data is to use `count` and `complete.cases` like this:
+
+```{r}
+dig2a %>% count(complete.cases(.))
+```
+
+## A potentially important tangent
+
+When fitting a logistic regression model in R, how do you know which level of your binary response (1 or 0, Yes or No, etc.) is being predicted by the `glm`?
+
+Let's show a simple case.
+
+```{r}
+toy1 <- dig2a %>% select(prevmi, prevmi_f, treat_f, bmi)
+
+toy_modelA <- glm(prevmi ~ treat_f + bmi, 
+                  data = toy1, 
+                  family = binomial(link = logit))
+
+toy_modelB <- glm(prevmi_f ~ treat_f + bmi, 
+                  data = toy1, 
+                  family = binomial(link = logit))
+
+toy_modelA
+toy_modelB
+```
+
+As you can see, the coefficients in `toy_modelA` are the negative of the coefficients in `toy_modelB`. This is because one of the models (model A, as it turns out) is estimating Pr(Previous MI) and one (model B, as it turns out) is estimating Pr(No previous MI). How do we know for sure which is which?
+
+- R, by default for a logistic regression using `glm`, wants a numeric response with 1 for "success" and 0 for "failure" and it will fit a model to predict the probability of "success".
+- For logistic regression models, `glm` will also accept a factor response, where the first level denotes "failure" and all other levels denote "success".
+
+In general...
+
+- if we use a 1/0 numeric outcome like `PREVMI`, we will get Pr(PREVMI = 1) from our model.
+- if we use a factor outcome like `prevmi_f`, we should look at the order of the levels - whatever is first will be treated as "failure" and the rest as "success", and we will get Pr("success") from our model.
+
+To check the levels of a factor, we can use `levels` or `table`, for example.
+
+```{r}
+levels(toy1$prevmi_f)
+table(toy1$prevmi_f)
+```
+
+Here, in either case, we see the problem, which is that we've specified "Yes" as the first level and "No" as the second level. So our model fits the probability of "No". We could change this order back using `fct_relevel` if we like. Note that the order we wanted in Table 1 is the opposite of what we want for modeling.
+
+Sometimes, people try using a logical response, like this, to deal with a factor variable.
+
+```{r}
+toy_modelC <- glm((prevmi_f == "Yes") ~ treat_f + bmi, 
+                  data = toy1, 
+                  family = binomial(link = logit))
+
+toy_modelC
+```
+
+As you can see this works, because the logical variable `(prevmi_f == "Yes")` places FALSE before TRUE, and so R's `glm` function models the probability that the statement `(prevmi_f == "Yes")` is TRUE.
+
+```{r}
+table(toy1$prevmi_f == "Yes")
+```
+
+# 4. Redefine sample and rebuild Table/Model.
+
+Assuming you have at least one missing value in a predictor in your model for question 3, re-define your sample to include only the observations which are "complete cases" with no missingness on any of the key variables we're looking at. Specify the number of subjects (< 1000) that remain in your new sample. 
+
+Now, **redo both Tasks 2 and 3** to describe this new sample and use it to fit a model. Call the new model `m2`. Verify that no missingness plagues this new model. 
+
+## The New Sample
+
+We'll build a new `dig2b` that limits us to the 872 cases with complete data.
+
+```{r}
+dig2b <- dig2a %>% drop_na
+
+nrow(dig2b)
+```
+
+## The New Table 1
+
+Here's the new Table 1, restricted to these `r nrow(dig2b)` people.
+
+```{r}
+q4_t1 <- CreateTableOne(data = dig2b, 
+                    vars = c("treat_f", "age", "race_f", 
+                             "sex_f", "ejf_per", "chestx", 
+                             "bmi", "klevel", "creat", 
+                             "chfdur", "dyspnea_f", 
+                             "nyha_f"),
+                    strata = c("prevmi_f"))
+q4_t1
+```
+
+## The New Logistic Regression Model
+
+And here's the new model:
+
+```{r}
+m2 <- glm(prevmi ~ treat_f + age + race_f + sex_f +
+              ejf_per + chestx + bmi + klevel +
+              creat + chfdur + dyspnea_f + nyha_f,
+          data = dig2b, family = binomial(link = logit))
+
+summary(m2)
+```
+
+There's no missingness here, and our model uses all `r nrow(dig2b)` complete observations, as we can see from the null deviance DF (which is n - 1).
+
+# 5. Add fitted probabilities, then plot against observed status.
+
+Use the model (`m2`) you built in Task 4 to add the fitted probability of previous myocardial infarction to your sample used to create `m2`. Produce an attractive and useful graphical summary of the distribution of fitted probabilities of previous myocardial infarction broken down into two categories by the patient's actual `prevmi` status in this sample. I suggest rounding the probabilities to two decimal places before graphing.
+
+## Adding the Fitted Probabilities
+
+There are several ways to add the fitted probabilities back to the data. You might use:
+
+```{r}
+dig2b$m2fits <- predict(m2, type = "response")
+
+dig2b %>% skim(m2fits)
+```
+
+Or you might use the `augment` tool from the `broom` package:
+
+```{r}
+dig3 <- broom::augment(m2, type.predict = "response")
+
+dig3 %>% skim(.fitted)
+```
+
+In either case, you need to specify "response" as the type of prediction you want in order to get fitted probabilities of previous MI, rather than the logit of those probabilities.
+
+## Building a Plot
+
+As for a graphical summary - I'd be happy with anything that permitted easy comparison of the two density estimates. Options shown below include a comparison boxplot, facetted histograms, frequency polygons, and a violin plot.
+
+```{r}
+ggplot(dig2b, aes(x = prevmi_f, y = m2fits, fill = prevmi_f)) +
+    geom_boxplot() +
+    guides(fill = FALSE) +
+    labs(x = "Previous Myocardial Infarction?",
+         y = "Model-estimated Probability of Previous MI")
+```
+
+```{r}
+ggplot(dig2b, aes(x = m2fits, fill = prevmi_f)) +
+    geom_histogram(bins = 20, col = "white") +
+    guides(fill = FALSE) +
+    labs(x = "Model-estimated Probability of Previous MI") +
+    facet_wrap(~ prevmi_f, labeller = label_both)
+```
+
+```{r}
+ggplot(dig2b, aes(x = m2fits, col = prevmi_f)) +
+    geom_freqpoly(bins = 20, size = 1.5) +
+    scale_color_discrete(name = "Previous MI?") +
+    labs(x = "Model-estimated Probability of Previous MI") 
+```
+
+```{r}
+ggplot(dig2b, aes(x = prevmi_f, y = m2fits, col = prevmi_f)) +
+    geom_violin() +
+    geom_boxplot(width = .2) +
+    guides(col = FALSE) +
+    labs(x = "Previous MI?",
+         y = "Model-estimated Probability of Previous MI") 
+```
