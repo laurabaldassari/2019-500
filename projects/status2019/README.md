@@ -2,26 +2,26 @@
 
 I expect project proposals from:
 
-- Hasina Momotaz and Gi-Ming Wang, as a team.
-- Gwen Donley and Roberto Martinez, as a team.
-- Sandra Silva Camargo and Abhishek Deshpande, as a team.
-- Ife Babatunde
-- Laura Baldassari
-- Julijana Conic
-- Laura	Cremer
-- Zhanwen	Du
-- Jenny	Feng
-- Jordan	Fiegl
-- Sebastian	Garcia-Medina
-- Hyun Jo	Kim
-- Michael	King
-- Kedar	Mahajan
-- Yousef	Mustafa
-- Harry	Persaud
-- Sarah	Planchon Pope
-- Brian	Richardson
-- Andrew	Smith
-- Kelly	Steller
-- Sneha	Vakamudi
-- Bob	Winkelman
-- Xin Xin Yu
+1. Hasina Momotaz and Gi-Ming Wang, as a team.
+2. Gwen Donley and Roberto Martinez, as a team.
+3. Sandra Silva Camargo and Abhishek Deshpande, as a team.
+4. Ife Babatunde
+5. Laura Baldassari
+6. Julijana Conic
+7. Laura	Cremer
+8. Zhanwen	Du
+9. Jenny	Feng
+10. Jordan	Fiegl
+11. Sebastian	Garcia-Medina
+12. Hyun Jo	Kim
+13. Michael	King
+14. Kedar	Mahajan
+15. Yousef	Mustafa
+16. Harry	Persaud
+17. Sarah	Planchon Pope
+18. Brian	Richardson
+19. Andrew	Smith
+20. Kelly	Steller
+21. Sneha	Vakamudi
+22. Bob	Winkelman
+23. Xin Xin Yu
