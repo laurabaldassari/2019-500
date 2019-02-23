@@ -66,3 +66,45 @@ That should be sufficient for the proposal (either your first or second draft.) 
     - Always code everything in the least collapsed way possible at the start of building a data set. 
     - You definitely want to build your data set using the data in the least aggregated (most granular) manner possible. It is always easy to collapse categories (taking low/middle/high to low vs not low, for instance) but it is always hard to expand them (taking low vs. not low to low/middle/high). 
     - If any of your categorical variables are based on a continuous variable that you have also measured, then you should definitely include the continuous variable in your data set either instead of or along with the categorized version. Again, you can always get the categories again if you need them from the continuous results, but you can't go the other way. 
+
+# Comments after the first drafts of the proposals
+
+Hello - 
+
+I am in the midst of working my way through the 22 project proposals, and have reviewed several thoroughly at this point. I will get them all done by the time we meet for class on Thursday. I will place individual comments for all proposals on Canvas. All of you will be doing revisions that are due March 5 at noon.
+
+Some requirements that I hoped were clear, but maybe weren't.
+
+- This isn't a study where you will have time to "boil the ocean" - you're doing several analyses of one data set to look at one key relationship.
+- All of you will be doing both propensity matching (one of several types) and an analysis using propensity score weighting (perhaps with a double robust adjustment included) to assess the impact of your treatment on your outcome. All analysis plans should indicate this clearly.
+- You must be comparing two groups/treatments/exposures on at most two outcomes, one of which must be identified in advance as primary.
+- Your outcomes must be either binary, quantitative or time-to-event. A single outcome is fine. Two is the maximum.
+- The plans for this project must look 100% feasible to me - the big problems I worry about are: 
+    1. getting the data too late to react well to problems, 
+    2. missing data that are not anticipated, 
+    3. limited covariate sets, 
+    4. inappropriate study designs for the sorts of propensity score analysis we are focused on (I worry about case-referent/case-control studies more than I do retrospective or prospective cohorts, for instance) 
+    5. trying to do multiple studies at once, and 
+    6. covariates which essentially define the propensity score (for instance, all of the tall people got my treatment, and all of the non-tall people got my treatment B). 
+
+This is a class project, not a MS thesis in itself. Remember that you're going to have, at most, 20 minutes to present your work.
+
+## A Spreadsheet of Key Elements
+
+I am preparing a spreadsheet which I will share with you when it is finished. For each project, I am trying to identify the following elements. In your March 5 revision, the most important thing is for you all to ensure that you have made my completing that spreadsheet trivially easy to do. The sheet asks for:
+
+1. your title
+2. your collaborators (both team members in class and people outside of the class who are involved in the work or who provided you the data)
+3. your data source, with specific information about how you got the data, and how I can get the data or why I cannot get the data
+4. whether you have the data in hand, and if you don't, when you will get it and how you know that's when you will get it
+5. what the sample size is overall (obviously this should exclude any subjects for whom you have missing treatment or outcome data), and what # and % of those people have the treatment/exposure that you will be building a propensity model for, and what # (%) have the alternative treatment/exposure. Note that you have to have a binary treatment/exposure. Not several exposures - just the one, with only two possibilities, clearly described.
+6. what the population is that you intend to generalize to from your sample, with a clear indication as to why your sample is (or isn't) representative of that population, and how you know that
+7. what the outcome is (you can look at a maximum of two outcomes, must designate one as primary and both outcomes can only be binary, quantitative or time-to-event. No multi-categorical outcomes, and no longitudinal outcomes, unless you're just looking at a change over time variable represented by a slope or difference
+8. what the treatment/exposure is, and (again) how many people have it, and how many have the alternative in your sample
+9. what the covariates are that you plan to include in your propensity model and how they are measured / categorized. I should easily be able to tell how many observations you have for each category of a categorical variable, and how many missing values you have for any kind of variable. Ideally, you'd be ready to prepare the necessary Table 1 (which can be page 3 of your March 5 proposal) that specifies this information broken down into your two treatment/exposure groups.
+
+If you don't understand the answers to any of these nine questions yet, that's a problem with the data set you've selected that you need to resolve. 
+
+I don't think anyone has already provided me with all of this information, so all of you need to do at least some revision to what you wrote initially to match these newly clarified requirements. 
+
+I will share the sheet here on Thursday in class to touch on all of these points, but I wanted to give you all something to be working on in the meantime, so that you can maximize the chances of my approving your proposal on March 5.
