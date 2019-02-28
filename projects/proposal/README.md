@@ -91,7 +91,7 @@ This is a class project, not a MS thesis in itself. Remember that you're going t
 
 ## A Spreadsheet of Key Elements
 
-I am preparing a spreadsheet which I will share with you when it is finished. For each project, I am trying to identify the following elements. In your March 5 revision, the most important thing is for you all to ensure that you have made my completing that spreadsheet trivially easy to do. The sheet asks for:
+I am preparing a [spreadsheet which you can see here](http://bit.ly/2019-500-proposals-draft1-sheet). For each project, I am trying to identify the following elements. In your March 5 revision, the most important thing is for you all to ensure that you have made my [completing that spreadsheet](http://bit.ly/2019-500-proposals-draft1-sheet) trivially easy to do. The sheet asks for:
 
 1. your title
 2. your collaborators (both team members in class and people outside of the class who are involved in the work or who provided you the data)
@@ -107,4 +107,6 @@ If you don't understand the answers to any of these nine questions yet, that's a
 
 I don't think anyone has already provided me with all of this information, so all of you need to do at least some revision to what you wrote initially to match these newly clarified requirements. 
 
-I will share the sheet here on Thursday in class to touch on all of these points, but I wanted to give you all something to be working on in the meantime, so that you can maximize the chances of my approving your proposal on March 5.
+I will [share the sheet](http://bit.ly/2019-500-proposals-draft1-sheet) on Thursday in class to touch on all of these points, but I wanted to give you all something to be working on in the meantime, so that you can maximize the chances of my approving your proposal on March 5.
+
+**Important Note**: Let me also emphasize that if you have substantially more than 3,000 samples, you will want to take a random sample of subjects so that your total sample size is around 2,500 or so for purposes of doing the project. You can always drop back to a more complete sample later, if you code this sensibly, but if you have more than about 2,500 - 3,000 observations, your R code will get very slow for some of the things you need to do.
