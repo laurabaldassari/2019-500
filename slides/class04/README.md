@@ -16,7 +16,7 @@ You'll also need to complete the [Project Scheduling Form](http://bit.ly/500-201
 
 The 2019 version of the toy example [is described here](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/toy_example). I'll be semi-live coding in class.
 
-The zipped folder containing everything I did in the live session is now available.
+**NEW**: The zipped folder containing everything I did in the live session [is now available](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class04/toy_live.zip).
 
 ## Today, we will discuss...
 
