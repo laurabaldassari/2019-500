@@ -21,3 +21,12 @@ I've gathered some comments (and a few examples of your writing) about elaborate
 When your grade on the Project Proposal (Final Version) on Canvas is 10/10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
 
 I [sent out an email 2019-03-03](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03) with three project ideas for those of you who were struggling with finding something appropriate. If I reject your current proposal and it seems like you have to start over (which I hope will not happen), [consider those options](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03).
+
+## Video of the Day / Why I Code in R Markdown
+
+Here's a [video we'll watch today](https://www.youtube.com/watch?time_continue=1&v=s3JldKoA0zw). Apologies to those of you who've seen this before.
+
+- I was motivated to show you this by David Keyes (@dgkeyes) [who had a nice set of posts](https://twitter.com/dgkeyes/status/1101554699566641152) about the benefits of R Markdown, to which Jenny Bryan responded by linking to the [1 minute 44 second video](https://www.youtube.com/watch?time_continue=1&v=s3JldKoA0zw).
+- There's a [nice repository](https://github.com/EvaMaeRey/from_raw_data_to_paper_and_presentation) by Gina Reynolds (EvaMaeRey) showing [examples of implementing a reproducible workflow using R Markdown](https://github.com/EvaMaeRey/from_raw_data_to_paper_and_presentation) from raw data to a research paper, slides, and a poster.
+- From that same thread, comes a link to [posterdown](https://github.com/brentthorne/posterdown) which looks like a nice tool for generating PDF posters of your research using R Markdown.
+
