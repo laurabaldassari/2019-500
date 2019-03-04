@@ -34,3 +34,15 @@ I want you to establish relevant and interesting research questions related to a
 - For more details on the final set of materials for the project, [go here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 
 Every part of the Course Project should be submitted through [Canvas](https://canvas.case.edu/) unless I explicitly state otherwise.
+
+## If you are completely out of ideas for a project in 500, here are three possibilities (Sent via email 2019-03-03)
+
+1.  Use [County Health Rankings](http://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation) data. 
+
+> As of 2016, there were 3,007 counties, 64 parishes, 19 organized boroughs, 10 census areas, 41 independent cities, and the District of Columbia for a total of 3,142 counties and county-equivalents in the 50 states and District of Columbia. There are an additional 100 county equivalents in the territories of the United States. (Wikipedia). 
+
+- I could imagine, for instance, your pulling down data from a series of states until you have a reasonable cross-section of information from the most recent County Health Rankings for, say, 1500 counties, for which you have a quantitative outcome like age-adjusted years of potential life lost per 100,000 population, or percentage of adults reporting fair or poor health, an exposure variable that you develop from the data - like whether the income inequality ratio was above or below a certain threshold (or, perhaps better, whether it was in the top quarter or the bottom half of counties as a whole so you'd have something like a 1:2 ratio between exposed (to, for instance, high income inequality) and control). Then, as covariates you would have a lot of county specific information.
+
+2. Use [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) data. The National Health and Nutrition Examination Survey is an excellent source of potential data for you, with lots of interesting outcomes, treatments and covariates to explore.
+
+3. Use [500 Cities](https://www.cdc.gov/500cities/index.htm) data. This is a pretty easy download, and there are lots of approaches you could take that would be interesting. Again, the hard work would be identifying a treatment, outcome and covariates that make sense.
