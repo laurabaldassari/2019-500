@@ -5,7 +5,7 @@
 
 ## Deliverables
 
-1. The "final" version of your [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) is due today at noon. Don't forget to complete the [Project Presentation Scheduling Form](http://bit.ly/500-2019-project-scheduling-form), as well.
+1. The "final" version of your [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) were due Tuesday 2019-03-05 at ~noon~ 6 PM. Don't forget to complete the [Project Presentation Scheduling Form](http://bit.ly/500-2019-project-scheduling-form), as well.
     - The dates for the project presentations are all on Thursdays: April 18, April 25 and May 2. I had the last date wrong on the form, and when I fixed it, some people's checks disappeared (I let them know via email.)
     - We have 25 students in the class, and 22 projects in total to hear. So we'll do 8 one day and 7 on the other two days. 
 2. Due to CWRU Spring Break, our next class will be 2019-03-21, and we'll discuss sensitivity analysis for matched samples. Due that day (at noon) are [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) and [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md).
