@@ -17,3 +17,6 @@
 
 I've gathered some comments (and a few examples of your writing) about elaborate theories and their role in designing and developing compelling observational studies [here](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/essay07). Please take a look.
 
+## Project Ideas
+
+I [sent out an email 2019-03-03](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03) with three project ideas for those of you who were struggling with finding something appropriate. If I reject your current proposal and it seems like you have to start over (which I hope will not happen), [consider those options](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03).
