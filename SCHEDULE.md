@@ -16,8 +16,8 @@ Class | Date | Key Topics / Deadline
 -- | 02-21 | [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) draft due at noon.
 4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, discuss Rosenbaum Chapter 7
 -- | 02-28 | [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon
--- | 03-05 | Final Version of [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) due at noon
--- | 03-05 | Complete [Project Presentation Scheduling Form](http://bit.ly/500-2019-project-scheduling-form) by noon
+-- | 03-05 | Final Version of [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) due at ~noon~ 6 PM.
+-- | 03-05 | Complete [Project Presentation Scheduling Form](http://bit.ly/500-2019-project-scheduling-form) by ~noon~ 6 PM.
 5 | 03-07 | The `match1` Example - discussion of Project Proposals
 -- | 03-14 | *No Class Meeting* (CWRU Spring Break)
 6 | 03-21 |  Sensitivity Analysis for Matched Samples, discuss Rosenbaum Chapter 8
