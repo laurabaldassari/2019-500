@@ -18,7 +18,7 @@ I've gathered some comments (and a few examples of your writing) about elaborate
 
 ## Project Ideas
 
-When your grade on the Project Proposal (Final Version) on Canvas is 10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
+When your grade on the Project Proposal (Final Version) on Canvas is 10/10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
 
 I [sent out an email 2019-03-03](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03) with three project ideas for those of you who were struggling with finding something appropriate. 
 
