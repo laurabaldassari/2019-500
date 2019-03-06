@@ -14,13 +14,13 @@ Class | Date | Key Topics / Deadline
 -- | 02-14 | [Homework 2](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework2) due at Noon.
 -- | 02-21 | *No Class Meeting*. (Dr. Love is out of town / AHRQ HCRT study section). 
 -- | 02-21 | [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) draft due at noon.
-4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, discuss Rosenbaum Chapter 7
+4 | 02-28 | The Toy Example - Using R to Build Propensity Analyses, ~discuss Rosenbaum Chapter 7~
 -- | 02-28 | [Essay on Chapter 7](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon
 -- | 03-05 | Final Version of [Project Proposal](https://github.com/THOMASELOVE/2019-500/tree/master/projects/proposal) due at ~noon~ 6 PM.
 -- | 03-05 | Complete [Project Presentation Scheduling Form](http://bit.ly/500-2019-project-scheduling-form) by ~noon~ 6 PM.
-5 | 03-07 | The `match1` Example - discussion of Project Proposals
+5 | 03-07 | Sensitivity Analysis for Matched Samples, discussion of Project Proposals, Rosenbaum Chapter 7
 -- | 03-14 | *No Class Meeting* (CWRU Spring Break)
-6 | 03-21 |  Sensitivity Analysis for Matched Samples, discuss Rosenbaum Chapter 8
+6 | 03-21 |  Another Live Code/Case Study, discuss Rosenbaum Chapter 8
 -- | 03-21 | [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3) **and** [Chapter 8 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) are each due at noon.
 7 | 03-28 | Rubin's Tobacco Litigation paper, discuss Rosenbaum Chapter 9
 -- | 03-28 | [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4) **and** [Chapter 9 Essay](https://github.com/THOMASELOVE/500-2018/blob/master/assignments/essayprompts.md) are each due at noon. 
