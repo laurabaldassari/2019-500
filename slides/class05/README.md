@@ -19,9 +19,21 @@ The "final" version of your [Project Proposal](https://github.com/THOMASELOVE/20
 - The dates for the project presentations are all on Thursdays: April 18, April 25 and May 2. I had the last date wrong on the form, and when I fixed it, some people's checks disappeared (I let them know via email.)
 - We have 25 students in the class, and 22 projects in total to hear. So we'll do 8 one day and 7 on the other two days. 
 
-When your grade on the Project Proposal (Final Version) on Canvas is 10/10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
+### Tentative Schedule (still need to add Yousef)
 
-I [sent out an email 2019-03-03](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03) with three project ideas for those of you who were struggling with finding something appropriate. If I reject your current proposal and it seems like you have to start over (which I hope will not happen), [consider those options](https://github.com/THOMASELOVE/2019-500/blob/master/projects/README.md#if-you-are-completely-out-of-ideas-for-a-project-in-500-here-are-three-possibilities-sent-via-email-2019-03-03).
+Time | April 18 | April 25 | May 2
+:-----------------: | :------: | :------: | :------: 
+8:35 AM to 8:50 AM | Sarah | Harry | Julijana
+8:52 AM to 9:07 AM | Gwen/Roberto | Brian | Hyun Jo
+9:09 AM to 9:24 AM | Laura B. | Sneha | Kelly
+9:26 AM to 9:41 AM | Andrew | Sebastian | Zhanwen
+9:41 AM to 9:52 AM | BREAK | BREAK | BREAK
+9:52 AM to 10:07 AM | Michael | Laura C. | Jenny
+10:09 AM to 10:24 AM | Jordan | Xin-Xin | Hasina/Gi-Ming
+10:26 AM to 10:41 AM | Bob | Kedar | Abhishek/Sandra
+10:43 AM to 10:58 AM | -- | -- | --
+
+When your grade on the Project Proposal (Final Version) on Canvas is 10/10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
 
 ## Coming Soon
 
