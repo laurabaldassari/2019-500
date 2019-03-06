@@ -35,5 +35,5 @@ I've gathered some comments (and a few examples of your writing) about elaborate
 
 ## Sensitivity Analysis for Matched Samples
 
-Visit [this link on our Data and Code page](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code#demonstrating-some-functions-from-the-rbounds-package) for some examples of sensitivity analysis for matched samples using both a spreadsheet and `rbounds`. We'll discuss these tools today in class.
+Visit [this link on our Data and Code page](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code#sensitivity-spreadsheet-beware---this-was-built-in-2008) for some examples of sensitivity analysis for matched samples using both a spreadsheet and `rbounds`. We'll discuss these tools today in class.
 
