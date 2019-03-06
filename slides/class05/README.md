@@ -19,7 +19,9 @@ The "final" version of your [Project Proposal](https://github.com/THOMASELOVE/20
 - The dates for the project presentations are all on Thursdays: April 18, April 25 and May 2. I had the last date wrong on the form, and when I fixed it, some people's checks disappeared (I let them know via email.)
 - We have 25 students in the class, and 22 projects in total to hear. So we'll do 8 one day and 7 on the other two days. 
 
-### Tentative Schedule (still need to add Yousef)
+When your grade on the Project Proposal (Final Version) on Canvas is 10/10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
+
+### Project Presentation Schedule 
 
 Time | April 18 | April 25 | May 2
 :-----------------: | :------: | :------: | :------: 
@@ -31,9 +33,8 @@ Time | April 18 | April 25 | May 2
 9:52 AM to 10:07 AM | Michael | Laura C. | Jenny
 10:09 AM to 10:24 AM | Jordan | Xin-Xin | Hasina/Gi-Ming
 10:26 AM to 10:41 AM | Bob | Kedar | Abhishek/Sandra
-10:43 AM to 10:58 AM | -- | -- | --
+10:43 AM to 10:58 AM | Dr. Love | Yousef | Dr. Love
 
-When your grade on the Project Proposal (Final Version) on Canvas is 10/10, I'm satisfied and your proposal is approved. Your next task is to do the project, and your next deliverable regarding the project is the [Project Update](https://github.com/THOMASELOVE/2019-500/tree/master/projects/update) due at the start of April.
 
 ## Coming Soon
 
