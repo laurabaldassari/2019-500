@@ -3,6 +3,7 @@ title: "Using rbounds with simulated data"
 author: "Thomas E. Love"
 date: "`r Sys.Date()`"
 output: 
+    github_document: default
     html_document:
         code_folding: show
         number_sections: TRUE
@@ -17,11 +18,12 @@ knitr::opts_chunk$set(comment = NA)
 ```{r}
 library(Matching)
 library(rbounds)
+library(janitor)
 library(tidyverse)
 ```
 
 ```{r}
-sim_obs <- read.csv("sim_obs.csv") %>% tbl_df
+sim_obs <- read_csv("sim_obs.csv") %>% clean_names()
 
 sim_obs
 ```
@@ -59,7 +61,7 @@ tmp <- sim.matchedsample1 %>% mutate(res = 10*treated + out1) %>%
 ```
 
 ```{r}
-tmp %>% count(out.tr, out.ctrl)
+tmp %>% tabyl(out.tr, out.ctrl) %>% adorn_title()
 ```
 
 So our 2x2 table would be:
