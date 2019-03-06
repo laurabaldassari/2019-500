@@ -17,7 +17,7 @@ The toy example is 100% fictional, and shows a (relatively) simple way to do som
 
 ## Demonstrating some functions from the `rbounds` package
 
-- The material includes this [R Markdown file](https://raw.githubusercontent.com/THOMASELOVE/2019-500/master/data-and-code/rbounds_demos.Rmd) and [this HTML result](http://htmlpreview.github.io/?https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/rbounds_demos.html) which demonstrate the use of some functions from the `rbounds` package to do sensitivity analysis calculations on the [sim_obs.csv](https://raw.githubusercontent.com/THOMASELOVE/2019-500/master/data-and-code/sim_obs.csv) data set.
+- The material includes this [R Markdown file](https://raw.githubusercontent.com/THOMASELOVE/2019-500/master/data-and-code/rbounds_demos.Rmd) and [this Github Markdown result](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/rbounds_demos.md) which demonstrate the use of some functions from the `rbounds` package to do sensitivity analysis calculations on the [sim_obs.csv](https://raw.githubusercontent.com/THOMASELOVE/2019-500/master/data-and-code/sim_obs.csv) data set.
 
 # Some Work from Other People
 
