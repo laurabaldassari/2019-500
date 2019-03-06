@@ -1,6 +1,7 @@
 # 500 Class 05: 2019-03-07
 
-- Slides for Class 5 will be posted soon. In a change of plans, we'll be discussing sensitivity analysis for matched samples.
+- Slides for Class 5 are available, above, in R Markdown or PDF. 
+    - In a change of plans, we'll be discussing sensitivity analysis for matched samples.
 - We will post the audio recording above, as soon as we can.
 
 ## Video of the Day / Why I Code in R Markdown
