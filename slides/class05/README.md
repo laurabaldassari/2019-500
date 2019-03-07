@@ -35,6 +35,7 @@ Time | April 18 | April 25 | May 2
 10:26 AM to 10:41 AM | Zhanwen | Kedar | Abhishek/Sandra
 10:43 AM to 10:58 AM | Dr. Love | Yousef | Dr. Love
 
+- Does this work for you, personally?
 
 ## Coming Soon
 
