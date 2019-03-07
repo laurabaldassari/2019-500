@@ -28,11 +28,11 @@ Time | April 18 | April 25 | May 2
 8:35 AM to 8:50 AM | Sarah | Harry | Julijana
 8:52 AM to 9:07 AM | Gwen/Roberto | Brian | Hyun Jo
 9:09 AM to 9:24 AM | Laura B. | Sneha | Kelly
-9:26 AM to 9:41 AM | Andrew | Sebastian | Zhanwen
+9:26 AM to 9:41 AM | Andrew | Sebastian | Bob
 9:41 AM to 9:52 AM | BREAK | BREAK | BREAK
 9:52 AM to 10:07 AM | Michael | Laura C. | Jenny
 10:09 AM to 10:24 AM | Jordan | Xin-Xin | Hasina/Gi-Ming
-10:26 AM to 10:41 AM | Bob | Kedar | Abhishek/Sandra
+10:26 AM to 10:41 AM | Zhanwen | Kedar | Abhishek/Sandra
 10:43 AM to 10:58 AM | Dr. Love | Yousef | Dr. Love
 
 
