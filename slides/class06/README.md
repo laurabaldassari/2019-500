@@ -12,7 +12,9 @@
 
 ## Project Details
 
-The Google Sheet at http://bit.ly/500-2019-project-list contains detailed information on each project proposal that I have approved. Please take a look at the title, data source, outcome and type of outcome, exposure, and covariate information I have listed there, and ensure that it matches your understanding of what I've approved. If it does not, please let me know by the end of class today, in person.
+The spreadsheet at http://bit.ly/500-2019-project-list contains information on each approved project proposal. 
+
+- Please take a look at the title, data source, outcome and type of outcome, exposure, and covariate information I have listed there, and ensure that it matches your understanding of what I've approved. If it does not, please let me know by the end of class today, in person.
 
 In today's class, we'll hear from the authors of the projects not yet discussed in class, which are:
 
@@ -28,5 +30,5 @@ In today's class, we'll hear from the authors of the projects not yet discussed 
 10. Jordan Fiegl "Understanding Challenges of Primary Care for Medicaid Patients"
 11. Michael King "Understanding the Impact of Physically Demanding Jobs on Sleep"
 
-Each of these folks will tell us just a little bit about their data source, outcome and treatment/exposure, and why they are studying this issue.
+Each of these people will tell us just a little bit about their data source, outcome and treatment/exposure, and why they are studying this issue.
 
