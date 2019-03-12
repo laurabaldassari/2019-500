@@ -30,7 +30,7 @@ In today's class, we'll hear from the authors of the projects not yet discussed 
 3. Julijana Conic "Length of survival in mitral valve repair for ischemic mitral regurgitation"
 4. Yousef Mustafa "Diabetes and Blood Pressure Status in NHANES 2015-16 Subjects"
 5. Laura Cremer "Is Marijuana a gateway drug?"
-6. Sebastian Garcia-Medina *Title coming soon*
+6. Sebastian Garcia-Medina "The influence of Marijuana consumption on sleeping habits"
 7. Brian Richardson "Topology of the stomach: The effects of tumor location on gastric cancer progression"
 8. Harry Persaud "Does fasting improve low-density lipoprotein and blood glucose? A re-analysis of de Toledo et al."
 9. Zhanwen Du "Effect of baseline diabetes on postoperative in hospital complications"
