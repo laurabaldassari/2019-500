@@ -6,9 +6,10 @@
 ## Today's Agenda
 
 1. Project Details and Presentation of the 11 studies not yet discussed
-2. Discussion of Rosenbaum Chapters 7-8
-3. Discussion of Homework 3
-4. A new Case Study
+2. Some Project Tips
+3. Discussion of Rosenbaum Chapters 7-8
+4. Discussion of Homework 3
+5. A new Case Study
 
 ## Project Details
 
