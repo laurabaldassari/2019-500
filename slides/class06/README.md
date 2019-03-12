@@ -11,6 +11,12 @@
 4. Discussion of Homework 3
 5. A new Case Study
 
+## Small Items
+
+- In the **toy** example, we had an error in section 4.3 (just a typo), as part of the Task 1 for Outcome 3. This is now corrected, and you can find the revised documents as follows:
+    - The code and script file written in R Markdown: [toy_2019_analysis.Rmd](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.Rmd)
+    - [PDF output for toy_2019_analysis](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.pdf), HTML version [most easily viewed on RPubs](http://rpubs.com/TELOVE/toy_2019_analysis), and [Github Markdown version](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.md).
+
 ## Project Details
 
 The spreadsheet at http://bit.ly/500-2019-project-list contains information on each approved project proposal. 
