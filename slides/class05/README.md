@@ -2,7 +2,7 @@
 
 - Slides for Class 5 are available, above, in R Markdown or PDF. 
     - In a change of plans, we'll be discussing sensitivity analysis for matched samples.
-- We will post the audio recording above, as soon as we can.
+- The audio-recording is posted above.
 
 ## Video of the Day / Why I Code in R Markdown
 
