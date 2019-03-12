@@ -1,13 +1,17 @@
 ---
-title: "The toy example: A Worked Analysis"
+title: 'The toy example: A Worked Analysis'
 author: "Thomas E. Love, Ph.D."
 date: 'Version: `r Sys.Date()`'
 output:
-  html_document:
-      code_folding: show
-      toc: TRUE
-      toc_float: TRUE
-      number_sections: TRUE
+    github_document:
+        toc: yes
+    pdf_document:
+        toc: yes
+    html_document:
+        code_folding: show
+        number_sections: yes
+        toc: yes
+        toc_float: yes
 ---
 
 ## Setup
@@ -365,7 +369,7 @@ unadj.out3 <- coxph(Surv(out3.time, out2.event=="Yes") ~ treated, data=toy)
 summary(unadj.out3) ## exp(coef) section indicates relative risk estimate and 95% CI
 ```
 
-The relative hazard rate is shown in the `exp(coef)` section of the output. Our unadjusted treatment model suggests that the hazard of the outcome is smaller (but not significantly smaller) in the treated group than in the control group. Our estimate is that this relative hazard rate for occurrence of the event associated with treatment as compared to control is 0.86 with a 95% confidence interval of (0.57, 1.29).
+The relative hazard rate is shown in the `exp(coef)` section of the output. 
 
 Yes, you can tidy this model, as well, using the `broom` package.
 
@@ -377,7 +381,7 @@ res_unadj_3
 
 And so, our estimate can be saved, as we've done previously. 
 
-- The relative hazard rate estimate is `r decim(res_unadj_3$estimate, 2)`, with 95% confidence interval ranging from `r decim(res_unadj_3$conf.low, 2)` to `r decim(res_unadj_3$conf.high, 2)`.
+- The relative hazard rate estimate is `r decim(res_unadj_3$estimate, 2)`, with 95% confidence interval ranging from `r decim(res_unadj_3$conf.low, 2)` to `r decim(res_unadj_3$conf.high, 2)`. Our unadjusted treatment model suggests that the hazard of the outcome is significantly larger (at a 5% significance level) in the treated group than in the control group. 
 
 It's wise, whenever fitting a Cox proportional hazards model, to assess the proportional hazards assumption. One way to do this is to run a simple test in R - from which we can obtain a plot, if we like. The idea is for the plot to show no clear patterns over time, and look pretty much like a horizontal line, while we would like the test to be non-significant - if that's the case, our proportional hazards assumption is likely OK.
 
