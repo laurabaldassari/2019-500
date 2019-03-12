@@ -32,3 +32,12 @@ In today's class, we'll hear from the authors of the projects not yet discussed 
 
 Each of these people will tell us just a little bit about their data source, outcome and treatment/exposure, and why they are studying this issue.
 
+## Some Project Tips
+
+1. If your project has roughly equal numbers of "exposed" and "control" subjects, you will run into a problem if you try to do 1:1 matching without replacement, in that your results will be virtually unchanged. You have the following alternatives available to you:
+    - Match 1:1 with replacement (which may still have only a small impact, depending on how you do it)
+    - Match 1:k with replacement, where k > 1 (which may or may not useful)
+    - Match 1:1 without replacement, but only on a random sample of (perhaps 1/3 of) your "exposed" subjects.
+2. If you have more than 4000 observations in total, I suggest sampling down (without replacement) to 3000 (at most) to develop your project. You should do this with code near the start of your R Markdown file, that can be tweaked as necessary, either to take a different sample, or not sample at all.
+    - If you're going to sample down like this, I recommend you maintain the rate of exposure that you see in the data as a whole, unless that rate is close to 50%, in which case I suggest you sample down to a rate that is 25-35% exposed and the rest unexposed, so that 1:1 matching without replacement will be more likely to produce useful results.
+3. The definition of which group is the "exposed" group and which is the "control" group matters analytically, although it's essentially an arbitrary selection. You will make your life easier for our purposes in developing the project by making your "exposed" group the smaller of the two groups, if possible.
