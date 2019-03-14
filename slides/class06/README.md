@@ -7,9 +7,9 @@
 
 1. Project Details and Presentation of the 11 studies not yet discussed
 2. Some Project Tips
-3. Discussion of Rosenbaum Chapters 7-8
-4. Discussion of Homework 3
-5. A new Case Study
+3. Discussion of Rosenbaum Chapters 7-8 (Elaborate Theories and Quasi-Experimental Devices)
+4. Discussion of [Homework 3](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework3)
+5. The [Right Heart Catheterization Case Study](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/rhc_2019)
 
 ## Small Items
 
@@ -45,6 +45,7 @@ Each of these people will tell us just a little bit about their data source, out
     - Match 1:1 with replacement (which may still have only a small impact, depending on how you do it)
     - Match 1:k with replacement, where k > 1 (which may or may not useful)
     - Match 1:1 without replacement, but only on a random sample of (perhaps 1/3 of) your "exposed" subjects.
+    - For more on matching, you probably want to look at the [Right Heart Catheterization](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/rhc_2019) case study that we'll discuss today.
 2. If you have more than 4000 observations in total, I suggest sampling down (without replacement) to 3000 (at most) to develop your project. You should do this with code near the start of your R Markdown file, that can be tweaked as necessary, either to take a different sample, or not sample at all.
     - If you're going to sample down like this, I recommend you maintain the rate of exposure that you see in the data as a whole, unless that rate is close to 50%, in which case I suggest you sample down to a rate that is 25-35% exposed and the rest unexposed, so that 1:1 matching without replacement will be more likely to produce useful results.
 3. The definition of which group is the "exposed" group and which is the "control" group matters analytically, although it's essentially an arbitrary selection. You will make your life easier for our purposes in developing the project by making your "exposed" group the smaller of the two groups, if possible.
