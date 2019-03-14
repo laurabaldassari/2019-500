@@ -3,13 +3,12 @@ title: "Some Propensity Ideas and the Right Heart Catheterization Data"
 author: "Thomas E. Love, Ph.D."
 date: "`r Sys.Date()`"
 output: 
-    github_document:
-        toc: true
-        toc_depth: 3
     html_document:
         toc: TRUE
         toc_float: TRUE
         number_sections: TRUE
+    github_document:
+        toc: true
 ---
 
 ```{r setup, include=FALSE}
@@ -1326,6 +1325,7 @@ ggplot(., aes(x = description, y = estimate, ymin = conf.low, ymax = conf.high))
          y = "Estimated Hazard Ratio associated with RHC")
 ```
 
+
 # Sensitivity Analyses
 
 ## For the Binary Outcome, Death
@@ -1410,9 +1410,8 @@ a8 %>% tabyl(result) %>% adorn_totals()
 
 So we have counts for the pairs where a clear winner is identified, and we can enter the spreadsheet. We need the number of pairs with a clear winner, and the number of pairs where the No RHC patient lived longer than the RHC patient.
 
-# Session Info
+# Session Information
 
 ```{r}
-sessioninfo::session_info()
+sessionInfo()
 ```
-
