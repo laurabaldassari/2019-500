@@ -49,3 +49,11 @@ Each of these people will tell us just a little bit about their data source, out
 2. If you have more than 4000 observations in total, I suggest sampling down (without replacement) to 3000 (at most) to develop your project. You should do this with code near the start of your R Markdown file, that can be tweaked as necessary, either to take a different sample, or not sample at all.
     - If you're going to sample down like this, I recommend you maintain the rate of exposure that you see in the data as a whole, unless that rate is close to 50%, in which case I suggest you sample down to a rate that is 25-35% exposed and the rest unexposed, so that 1:1 matching without replacement will be more likely to produce useful results.
 3. The definition of which group is the "exposed" group and which is the "control" group matters analytically, although it's essentially an arbitrary selection. You will make your life easier for our purposes in developing the project by making your "exposed" group the smaller of the two groups, if possible.
+
+## Next Time
+
+We'll finish the [Right Heart Catheterization example](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/rhc_2019), and we'll also discuss: 
+
+- the [2001 paper by Donald Rubin about the tobacco litigation](https://github.com/THOMASELOVE/2019-500/blob/master/texts/Rubin%202001%20Tobacco%20Litigation%20article.pdf) that led to Rubin's Rules 1-3, among other things, and ...
+- Chapter 9 (on Sensitivity to Bias) from Rosenbaum, 
+- [Homework 4](https://github.com/THOMASELOVE/2019-500/tree/master/assignments/homework4)
