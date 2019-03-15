@@ -1,6 +1,6 @@
 # 500 Class 06: 2019-03-21
 
-- Slides for Class 6 will be made available, above, in R Markdown or PDF. 
+- Slides for Class 6 are now available, above, in R Markdown and in PDF. 
 - We will also post the audio recording, above, as soon as we can.
 
 ## Today's Agenda
