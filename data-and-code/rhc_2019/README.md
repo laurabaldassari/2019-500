@@ -10,3 +10,11 @@ This example uses real data from the SUPPORT study, describing analyses related 
 This example will be our primary topic of conversation in Class on 2019-03-21.
 
 To run this yourself, create a new directory for an R studio project, then place the R Markdown code in a subdirectory of that directory called R and also create an (empty) subdirectory called data. That should do it.
+
+The example demonstrates:
+
+1. Working with real data
+2. Using various approaches to matching with the propensity score (from the Matching package)
+3. Assessing covariate balance after matching
+4. Working with a binary outcome, a quantitative outcome and a survival (time-to-event) outcome
+5. Sensitivity analyses after matching
