@@ -30,12 +30,12 @@ Class | Date | Key Topics / Deadline
 9 | 04-11 | Posner's paper comparing methods, Project Discussion, discuss Rosenbaum Chapter 12
 -- | 04-11 | [Chapter 12 Essay](https://github.com/THOMASELOVE/2019-500/blob/master/assignments/essayprompts.md) due at noon.
 -- | 04-17 | [Pre-Presentation Project Abstracts](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-abstract) for all 26 students are due at 2 PM.
--- | 04-17 | [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation) for presenters 1-9 due at 4 PM
-10 | 04-18 | [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for presenters 1-9
--- | 04-24 | [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation) for presenters 10-18 due at 4 PM
-11 | 04-25 | [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for presenters 10-18
--- | 04-30 | [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation) for final eight presenters due at 4 PM
-12 | 05-01 | Last Class: [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for presenters 19-26, Final Comments from Dr. Love
+-- | 04-17 | [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation) for those presenting on 04-18 are due at 4 PM on 04-17.
+10 | 04-18 | [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for 04-18 presenters.
+-- | 04-24 | [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation) for those presenting on 04-25 are due at 4 PM on 04-24.
+11 | 04-25 | [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for 04-25 presenters.
+-- | 05-01 | [Slides](https://github.com/THOMASELOVE/2019-500/blob/master/projects/final/README.md#the-presentation) for those presenting on 05-02 are due at 4 PM on 05-01.
+12 | 05-02 | Last Class: [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for 05-02 presenters, Final Comments from Dr. Love
 -- | 05-06 | Noon: Final Project Materials are due. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 
 ## Project Presentation Schedule 
