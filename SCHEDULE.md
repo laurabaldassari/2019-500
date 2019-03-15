@@ -38,6 +38,22 @@ Class | Date | Key Topics / Deadline
 12 | 05-01 | Last Class: [Final Project Presentations](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final) for presenters 19-26, Final Comments from Dr. Love
 -- | 05-06 | Noon: Final Project Materials are due. [Details here](https://github.com/THOMASELOVE/2019-500/tree/master/projects/final).
 
+## Project Presentation Schedule 
+
+Time | April 18 | April 25 | May 2
+:-----------------: | :------: | :------: | :------: 
+8:35 AM to 8:50 AM | Sarah | Harry | Julijana
+8:52 AM to 9:07 AM | Gwen/Roberto | Brian | Hyun Jo
+9:09 AM to 9:24 AM | Laura B. | Sneha | Kelly
+9:26 AM to 9:41 AM | Andrew | Sebastian | Bob
+9:41 AM to 9:52 AM | BREAK | BREAK | BREAK
+9:52 AM to 10:07 AM | Michael | Laura C. | Jenny
+10:09 AM to 10:24 AM | Jordan | Xin-Xin | Hasina/Gi-Ming
+10:26 AM to 10:41 AM | Zhanwen | Kedar | Abhishek/Sandra
+10:43 AM to 10:58 AM | Dr. Love | Yousef | Dr. Love
+
+## Notes
+
 The book we're reading together, referred to as Rosenbaum above is Paul Rosenbaum's *Observation and Experiment: An Introduction to Causal Inference*, published in 2017 by Harvard University Press. The ISBN-13 number is 978-0674975576. The book is available electronically or in hardcover from Amazon and other retailers.
 
 All deliverables in this course should be submitted via [Canvas](https://canvas.case.edu/), unless Dr. Love explicitly states otherwise.
