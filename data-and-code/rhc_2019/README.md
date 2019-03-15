@@ -9,3 +9,4 @@ This example uses real data from the SUPPORT study, describing analyses related 
 
 This example will be our primary topic of conversation in Class on 2019-03-21.
 
+To run this yourself, create a new directory for an R studio project, then place the R Markdown code in a subdirectory of that directory called R and also create an (empty) subdirectory called data. That should do it.
