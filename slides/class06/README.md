@@ -17,6 +17,13 @@
     - The code and script file written in R Markdown: [toy_2019_analysis.Rmd](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.Rmd)
     - [PDF output for toy_2019_analysis](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.pdf), HTML version [most easily viewed on RPubs](http://rpubs.com/TELOVE/toy_2019_analysis), and [Github Markdown version](https://github.com/THOMASELOVE/2019-500/blob/master/data-and-code/toy_example/toy_2019_analysis.md).
 
+## EpiBookClub meets at 2:30 today in Wood WG 82-C
+
+- This week we will be discussing the last two chapters of Healy's Data Viz book - Chapter 7 (Maps) and Chapter 8 (Refining Your Plots).
+- If you have any plots or graphs you'd like to share with the group (plus R code), please bring them and we can put them on the big screen.
+- Think about what we should do with this club next - the book will be over with but hopefully our meetings will not be. Wyatt and I would like to continue meeting.
+
+
 ## Project Details
 
 The spreadsheet at http://bit.ly/500-2019-project-list contains information on each approved project proposal. 
