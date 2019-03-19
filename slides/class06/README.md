@@ -39,7 +39,7 @@ In today's class, we'll hear from the authors of the projects not yet discussed 
 
 Each of these people will tell us just a little bit about their data source, outcome and treatment/exposure, and why they are studying this issue.
 
-## Some Project Tips
+## Some Project Tips (in addition to [these tips shared previously](https://github.com/THOMASELOVE/2019-500/blob/master/projects/tips.md))
 
 1. If your project has roughly equal numbers of "exposed" and "control" subjects, you will run into a problem if you try to do 1:1 matching without replacement, in that your results will be virtually unchanged. You have the following alternatives available to you:
     - Match 1:1 with replacement (which may still have only a small impact, depending on how you do it)
