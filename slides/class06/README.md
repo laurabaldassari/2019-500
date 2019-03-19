@@ -54,9 +54,10 @@ Each of these people will tell us just a little bit about their data source, out
 
 [This is just amazing to me](https://explorablemultiverse.github.io/).
 
+I learned about it from [Matthew Kay's twitter thread](https://twitter.com/mjskay/status/1106742607420497921)
+
 ![](https://github.com/THOMASELOVE/2019-500/blob/master/slides/class06/figures/kay-tw.PNG)
 
-I learned about it from [Matthew Kay's twitter thread](https://twitter.com/mjskay/status/1106742607420497921)
 
 ## Next Time
 
