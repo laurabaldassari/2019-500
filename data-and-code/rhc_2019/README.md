@@ -13,7 +13,7 @@ This example will be our primary topic of conversation in Class on 2019-03-21.
 
 The latest version makes the following changes:
 
-1. Leave outcomes of initial runs for each match.
+1. Leave outcomes out of initial runs for each match, and return them for sensitivity analyses.
 2. Reduce the vertical size of the Love plots a bit.
 3. Set a seed explicitly.
 4. Fix errors in the sensitivity analysis presentation for binary and quantitative outcomes.
