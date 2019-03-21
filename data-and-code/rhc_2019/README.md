@@ -11,7 +11,7 @@ This example will be our primary topic of conversation in Class on 2019-03-21.
 
 ## Post-Class Update
 
-The latest version makes the following changes:
+The versions posted above and at RPubs incorporate the following changes:
 
 1. Leave outcomes out of initial runs for each match, and return them for sensitivity analyses.
 2. Reduce the vertical size of the Love plots a bit.
@@ -20,7 +20,7 @@ The latest version makes the following changes:
 5. Fix error in specifying Match 4 so that now it is looking at "with" replacement.
 6. Fix error in title of Match 5 so it now correctly specifies "without" replacement.
 
-Still to be done:
+Still to be done (in order of likelihood that I'll get them done soon):
 
 1. Run this again, with R version 3.5.3.
 2. Remove warning messages.
