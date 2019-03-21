@@ -3,12 +3,12 @@ title: "Some Propensity Ideas and the Right Heart Catheterization Data"
 author: "Thomas E. Love, Ph.D."
 date: "`r Sys.Date()`"
 output: 
+    github_document:
+        toc: true
     html_document:
         toc: TRUE
         toc_float: TRUE
         number_sections: TRUE
-    github_document:
-        toc: true
 ---
 
 ```{r setup, include=FALSE}
@@ -397,6 +397,14 @@ rhc <- rhc_cleaning %>%
 saveRDS(rhc, here("data", "rhc.Rds"))
 ```
 
+# Setting a Seed
+
+I'm going to set a seed for random numbers before we start, which I can change later if I like.
+
+```{r}
+set.seed(5002019)
+```
+
 # Unadjusted Outcome Assessments
 
 Before we estimate a propensity score, we'll perform unadjusted assessments to describe the impact of RHC (or not) on our three outcomes, without adjustment for any covariates at all.
@@ -463,7 +471,7 @@ Now, you've inverted the odds ratio! Not good. So, either use 0 and 1 (with 1 be
 ## Outcome B: Length of Stay (quantitative)
 
 ```{r}
-hospdays_unadj <- glm(hospdays ~ treat_rhc, data = rhc)
+hospdays_unadj <- lm(hospdays ~ treat_rhc, data = rhc)
 
 hospdays_unadj
 
@@ -570,18 +578,19 @@ So, we've got some work to do. Let's try matching. In several different ways.
 # Match 1: 1:1 Greedy Matching on the linear PS, without Replacement
 
 ```{r}
-Y <- rhc$hospdays
 X <- rhc$linps
 Tr <- as.logical(rhc$swang1 == "RHC")
-match1 <- Match(Y = Y, Tr = Tr, X = X, M = 1, 
+match1 <- Match(Tr = Tr, X = X, M = 1, 
                 estimand = "ATT", replace = FALSE, 
                 ties = FALSE)
 summary(match1)
 ```
 
+
+
 ## Love Plot for Match 1
 
-```{r, fig.height = 10}
+```{r, fig.height = 8}
 b1 <- bal.tab(match1, 
               swang1 == "RHC"  ~ 
                   age + sex + edu + income + ninsclas + race +
@@ -635,10 +644,9 @@ rubin2.m1
 # Match 2: 1:2 Greedy Matching on the linear PS, without Replacement
 
 ```{r}
-Y <- rhc$hospdays
 X <- rhc$linps
 Tr <- as.logical(rhc$swang1 == "RHC")
-match2 <- Match(Y = Y, Tr = Tr, X = X, M = 2, 
+match2 <- Match(Tr = Tr, X = X, M = 2, 
                 estimand = "ATT", replace = FALSE, 
                 ties = FALSE)
 summary(match2)
@@ -646,7 +654,7 @@ summary(match2)
 
 ## Love Plot for Match 2
 
-```{r, fig.height = 10}
+```{r, fig.height = 8}
 b2 <- bal.tab(match2, 
               swang1 == "RHC"  ~ 
                   age + sex + edu + income + ninsclas + race +
@@ -707,21 +715,20 @@ Please note that I am using way too small values of `pop.size` (especially) and 
 For actual publications, follow the recommendations of the `GenMatch` algorithm, as described in the `Matching` and `genoud` package help files. The default values (which may be too small themselves) are 100 for both `pop.size` and `max.generations`.
 
 ```{r}
-Y <- rhc$hospdays
 X <- cbind(rhc$linps, rhc$ps)
 Tr <- as.logical(rhc$swang1 == "RHC")
 genout3 <- GenMatch(Tr = Tr, X = X,
                     estimand = "ATT", M = 1,
                     pop.size = 10, max.generations = 10,
                     wait.generations = 4, verbose = FALSE)
-match3 <- Match(Y = Y, Tr = Tr, X = X, estimand = "ATT", 
+match3 <- Match(Tr = Tr, X = X, estimand = "ATT", 
                  Weight.matrix = genout3)
 summary(match3)
 ```
 
 ## Love Plot for Match 3
 
-```{r, fig.height = 10}
+```{r, fig.height = 8}
 b3 <- bal.tab(match3, 
               swang1 == "RHC"  ~ 
                   age + sex + edu + income + ninsclas + race +
@@ -777,18 +784,17 @@ rubin2.m3
 # Match 4: 1:1 Greedy Matching on the linear PS, WITH Replacement
 
 ```{r}
-Y <- rhc$hospdays
 X <- rhc$linps
 Tr <- as.logical(rhc$swang1 == "RHC")
-match4 <- Match(Y = Y, Tr = Tr, X = X, M = 1, 
-                estimand = "ATT", replace = FALSE, 
+match4 <- Match(Tr = Tr, X = X, M = 1, 
+                estimand = "ATT", replace = TRUE, 
                 ties = FALSE)
 summary(match4)
 ```
 
 ## Love Plot for Match 4
 
-```{r, fig.height = 10}
+```{r, fig.height = 8}
 b4 <- bal.tab(match4, 
               swang1 == "RHC"  ~ 
                   age + sex + edu + income + ninsclas + race +
@@ -841,13 +847,12 @@ rubin2.m4
 
 
 
-# Match 5: 1:1 Caliper Matching on the linear PS, WITH Replacement
+# Match 5: 1:1 Caliper Matching on the linear PS, WITHOUT Replacement
 
 ```{r}
-Y <- rhc$hospdays
 X <- rhc$linps
 Tr <- as.logical(rhc$swang1 == "RHC")
-match5 <- Match(Y = Y, Tr = Tr, X = X, M = 1, 
+match5 <- Match(Tr = Tr, X = X, M = 1, 
                 caliper = 0.2,
                 estimand = "ATT", replace = FALSE, 
                 ties = FALSE)
@@ -856,7 +861,7 @@ summary(match5)
 
 ## Love Plot for Match 5
 
-```{r, fig.height = 10}
+```{r, fig.height = 8}
 b5 <- bal.tab(match5, 
               swang1 == "RHC"  ~ 
                   age + sex + edu + income + ninsclas + race +
@@ -910,10 +915,9 @@ rubin2.m5
 # Match 6: 1:2 Greedy Matching on the linear PS, WITH Replacement
 
 ```{r}
-Y <- rhc$hospdays
 X <- rhc$linps
 Tr <- as.logical(rhc$swang1 == "RHC")
-match6 <- Match(Y = Y, Tr = Tr, X = X, M = 2, 
+match6 <- Match(Tr = Tr, X = X, M = 2, 
                 estimand = "ATT", replace = TRUE, 
                 ties = FALSE)
 summary(match6)
@@ -921,7 +925,7 @@ summary(match6)
 
 ## Love Plot for Match 6
 
-```{r, fig.height = 10}
+```{r, fig.height = 8}
 b6 <- bal.tab(match6, 
               swang1 == "RHC"  ~ 
                   age + sex + edu + income + ninsclas + race +
@@ -976,13 +980,13 @@ rubin2.m6
 
 Match | Rubin 1 | Rubin 2 | Love Plot | Matched Sets | Description
 -----: | ------: | -----: | --------- | -------: | -------------------------
-None | `r round_half_up(rubin1.unadj,1)` | `r round_half_up(rubin2.unadj,2)` | Terrible | -- |  No Matching
-1 | `r round_half_up(rubin1.m1, 1)` | `r round_half_up(rubin2.m1, 2)` | Not Good | 2,184 | 1:1 greedy w/o repl
-2 | `r round_half_up(rubin1.m2, 1)` | `r round_half_up(rubin2.m2, 2)` | Terrible | 1,775 | 1:2 greedy w/o repl
-3 | `r round_half_up(rubin1.m3, 1)` | `r round_half_up(rubin2.m3, 2)` | Good | 2,184 | Genetic Search 1:1 w/o repl
-4 | `r round_half_up(rubin1.m4, 1)` | `r round_half_up(rubin2.m4, 2)` | Not Good | 2,184 | 1:1 greedy with repl
-5 | `r round_half_up(rubin1.m5, 1)` | `r round_half_up(rubin2.m5, 2)` | Great | 1,563 | 1:1 caliper with repl
-6 | `r round_half_up(rubin1.m6, 1)` | `r round_half_up(rubin2.m6, 2)` | Good | 2,184 | 1:2 greedy with repl
+None | `r round_half_up(rubin1.unadj,1)` | `r round_half_up(rubin2.unadj,2)` | -- | -- |  No Matching
+1 | `r round_half_up(rubin1.m1, 1)` | `r round_half_up(rubin2.m1, 2)` | Pretty Bad | 2,184 | 1:1 greedy w/o repl
+2 | `r round_half_up(rubin1.m2, 1)` | `r round_half_up(rubin2.m2, 2)` | Dreadful | 1,775 | 1:2 greedy w/o repl
+3 | `r round_half_up(rubin1.m3, 1)` | `r round_half_up(rubin2.m3, 2)` | Very Good | 2,184 | Genetic Search 1:1 w/o repl
+4 | `r round_half_up(rubin1.m4, 1)` | `r round_half_up(rubin2.m4, 2)` | Very Good | 2,184 | 1:1 greedy with repl
+5 | `r round_half_up(rubin1.m5, 1)` | `r round_half_up(rubin2.m5, 2)` | Very Good | 1,562 | 1:1 caliper with repl
+6 | `r round_half_up(rubin1.m6, 1)` | `r round_half_up(rubin2.m6, 2)` | Very Good | 2,184 | 1:2 greedy with repl
 
 
 # ATT Matching Estimates for the Binary Outcome, Death
@@ -1050,7 +1054,7 @@ death_match_results <- death_match_results %>%
                            "1:2 greedy matching without replacement",
                            "1:1 genetic search matching without replacement",
                            "1:1 greedy matching with replacement",
-                           "1:1 caliper matching on the linear PS with replacement",
+                           "1:1 caliper matching on the linear PS without replacement",
                            "1:2 greedy matching with replacement"))
 
 death_match_results
@@ -1068,11 +1072,11 @@ ggplot(death_match_results, aes(x = approach, y = estimate, ymin = conf.low, yma
          y = "Estimated Odds Ratio for Death associated with RHC")
 ```
 
-Let's look at just the three strategies that achieved stronger balance.
+Let's look at just the four strategies that achieved stronger balance.
 
 ```{r}
 death_match_results %>%
-    filter(approach %in% c("Match 3", "Match 5", "Match 6")) %>%
+    filter(approach %in% c("Match 3", "Match 4", "Match 5", "Match 6")) %>%
 ggplot(., aes(x = description, y = estimate, ymin = conf.low, ymax = conf.high)) +
     geom_text(aes(label = round_half_up(estimate,2)), vjust = -1.25) +
     geom_pointrange() +
@@ -1183,7 +1187,7 @@ hospdays_match_results <- hospdays_match_results %>%
                            "1:2 greedy matching without replacement",
                            "1:1 genetic search matching without replacement",
                            "1:1 greedy matching with replacement",
-                           "1:1 caliper matching on the linear PS with replacement",
+                           "1:1 caliper matching on the linear PS without replacement",
                            "1:2 greedy matching with replacement"))
 
 hospdays_match_results
@@ -1202,11 +1206,11 @@ ggplot(hospdays_match_results, aes(x = approach, y = estimate, ymin = conf.low, 
          y = "Estimated Change in Hospital Length of Stay associated with RHC")
 ```
 
-Let's look at just the three strategies that achieved stronger balance.
+Let's look at just the four strategies that achieved stronger balance.
 
 ```{r}
 hospdays_match_results %>%
-    filter(approach %in% c("Match 3", "Match 5", "Match 6")) %>%
+    filter(approach %in% c("Match 3", "Match 4", "Match 5", "Match 6")) %>%
 ggplot(., aes(x = description, y = estimate, ymin = conf.low, ymax = conf.high)) +
     geom_text(aes(label = round_half_up(estimate,2)), vjust = -1.25) +
     geom_pointrange() +
@@ -1290,7 +1294,7 @@ survdays_match_results <- survdays_match_results %>%
                            "1:2 greedy matching without replacement",
                            "1:1 genetic search matching without replacement",
                            "1:1 greedy matching with replacement",
-                           "1:1 caliper matching on the linear PS with replacement",
+                           "1:1 caliper matching on the linear PS without replacement",
                            "1:2 greedy matching with replacement"))
 
 survdays_match_results
@@ -1309,11 +1313,11 @@ ggplot(survdays_match_results, aes(x = approach, y = estimate, ymin = conf.low, 
          y = "Estimated Hazard Ratio associated with RHC")
 ```
 
-Let's look at just the three strategies that achieved stronger balance.
+Let's look at just the four strategies that achieved stronger balance.
 
 ```{r}
 survdays_match_results %>%
-    filter(approach %in% c("Match 3", "Match 5", "Match 6")) %>%
+    filter(approach %in% c("Match 3", "Match 4", "Match 5", "Match 6")) %>%
 ggplot(., aes(x = description, y = estimate, ymin = conf.low, ymax = conf.high)) +
     geom_text(aes(label = round_half_up(estimate,2)), vjust = -1.25) +
     geom_pointrange() +
@@ -1330,27 +1334,44 @@ ggplot(., aes(x = description, y = estimate, ymin = conf.low, ymax = conf.high))
 
 ## For the Binary Outcome, Death
 
-The `rbounds` package can evaluate binary outcomes using the `binarysens` and `Fishersens` functions. The `binarysens` function works directly on a matched sample as developed using the Matching package. For example, in our third match, based on the genetic search algorithm with 1:1 matching without replacement, this is `match3`.
+The `rbounds` package can evaluate binary outcomes using the `binarysens` and `Fishersens` functions. The `binarysens` function works directly on a matched sample as developed using the Matching package. For example, in our third match, based on the genetic search algorithm with 1:1 matching without replacement, this is `match3`. Note that in order to do this, we needed to run `match3` including the appropriate (binary) outcome (Y).
 
 ```{r}
-binarysens(match3, Gamma = 2, GammaInc = 0.1)
+Y <- rhc$died
+X <- cbind(rhc$linps, rhc$ps)
+Tr <- as.logical(rhc$swang1 == "RHC")
+match3 <- Match(Y = Y, Tr = Tr, X = X, estimand = "ATT", 
+                 Weight.matrix = genout3)
+binarysens(match3, Gamma = 1.5, GammaInc = 0.05)
 ```
 
-At a 5% significance level, we retain significance up to a hidden bias of $\Gamma$ = 1.2, but not at $\Gamma$ = 1.3. See the `toy_2019` example discussed in Class 4, as well as Chapter 9 of Rosenbaum's *Observation and Experiment* for more details on interpretation of this result.
+At a 5% significance level, we retain significance up to a hidden bias of $\Gamma$ = 1.15, but not at $\Gamma$ = 1.2. See the `toy_2019` example discussed in Class 4, as well as Chapter 9 of Rosenbaum's *Observation and Experiment* for more details on interpretation of this result.
 
-We can also use this approach with other Matching results, including Match 6, which is a 1:2 match with replacement.
+We can also use this approach with other Matching results, including Match 6, which is a 1:2 match with replacement. Again, we have to run the match with the appropriate outcome included.
 
 ```{r}
-binarysens(match6, Gamma = 3, GammaInc = 0.25)
+Y <- rhc$died
+X <- rhc$linps
+Tr <- as.logical(rhc$swang1 == "RHC")
+match6 <- Match(Y = Y, Tr = Tr, X = X, M = 2, 
+                estimand = "ATT", replace = TRUE, 
+                ties = FALSE)
+
+binarysens(match6, Gamma = 1.5, GammaInc = 0.05)
 ```
 
-Here, at a 5% significance level, we retain significance up to a hidden bias of $\Gamma$ = 2.5, but not at $\Gamma$ = 2.75.
+Here, at a 5% significance level, we retain significance up to a hidden bias of $\Gamma$ = 1.15, but not at $\Gamma$ = 1.20.
 
 ## For the Quantitative Outcome, In-Hospital Length of Stay
 
 We have already used the `Match` function from the Matching package to develop our matched samples. For our 1:1 matches, we need only run the `psens` function from the `rbounds` package to obtain sensitivity results. For example, in Match 3,
 
 ```{r}
+Y <- rhc$hospdays
+X <- cbind(rhc$linps, rhc$ps)
+Tr <- as.logical(rhc$swang1 == "RHC")
+match3 <- Match(Y = Y, Tr = Tr, X = X, estimand = "ATT", 
+                 Weight.matrix = genout3)
 psens(match3, Gamma = 1.5, GammaInc = 0.1)
 ```
 
@@ -1359,6 +1380,13 @@ At a 5% significance level, we retain significance up to a hidden bias of $\Gamm
 For a matching with more than 1 control, we need to apply the `mcontrol` function, which requires the use of the `data.prep` function from `rbounds`. So, for example, in Match 6, which is a 1:2 greedy match (so that each matched set has 3 patients in it, making the `group.size` = 3), we would have:
 
 ```{r}
+Y <- rhc$hospdays
+X <- rhc$linps
+Tr <- as.logical(rhc$swang1 == "RHC")
+match6 <- Match(Y = Y, Tr = Tr, X = X, M = 2, 
+                estimand = "ATT", replace = TRUE, 
+                ties = FALSE)
+
 tmp <- data.prep(match6, group.size = 3)
 
 mcontrol(tmp$Y, tmp$id, tmp$treat, group.size=3, Gamma = 1.5, GammaInc = 0.1)
@@ -1368,7 +1396,7 @@ Again, at a 5% significance level, we retain significance up to a hidden bias of
 
 ## For the Survival Outcome, In-Study Time to Death
 
-In this setting, we would need to use the spreadsheet software provided by Dr. Love. That software is designed only for 1:1 greedy matching without replacement or weighting, which is the approach we took in Match 1. We need to identify, for each matched pair of subjects, whether that pair's set of results was:
+In this setting, we would need to use the spreadsheet software provided by Dr. Love. That software is designed only for 1:1 greedy matching without replacement or weighting, which is the approach we took in Match 1 (we could also have looked at matching using a caliper, but without replacement.) We need to identify, for each matched pair of subjects, whether that pair's set of results was:
 
 - that the RHC patient definitely survived longer than the non-RHC patient
 - that the non-RHC patient definitely survived longer than the RHC patient
