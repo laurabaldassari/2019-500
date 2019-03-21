@@ -20,6 +20,14 @@ The latest version makes the following changes:
 5. Fix error in specifying Match 4 so that now it is looking at "with" replacement.
 6. Fix error in title of Match 5 so it now correctly specifies "without" replacement.
 
+Still to be done:
+
+1. Run this again, with R version 3.5.3.
+2. Remove warning messages.
+3. Perhaps switch Matches 4 and 5 so that the ordering makes more sense (without replacement, then with replacement)
+4. More explicit description of exactly what's happening in each match.
+
+
 ## Running This Yourself
 
 To run this yourself, create a new directory for an R studio project, then place the R Markdown code in a subdirectory of that directory called R and also create an (empty) subdirectory called data. That should do it.
