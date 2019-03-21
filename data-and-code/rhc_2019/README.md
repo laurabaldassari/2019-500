@@ -9,6 +9,19 @@ This example uses real data from the SUPPORT study, describing analyses related 
 
 This example will be our primary topic of conversation in Class on 2019-03-21.
 
+## Post-Class Update
+
+The latest version makes the following changes:
+
+1. Leave outcomes of initial runs for each match.
+2. Reduce the vertical size of the Love plots a bit.
+3. Set a seed explicitly.
+4. Fix errors in the sensitivity analysis presentation for binary and quantitative outcomes.
+5. Fix error in specifying Match 4 so that now it is looking at "with" replacement.
+6. Fix error in title of Match 5 so it now correctly specifies "without" replacement.
+
+## Running This Yourself
+
 To run this yourself, create a new directory for an R studio project, then place the R Markdown code in a subdirectory of that directory called R and also create an (empty) subdirectory called data. That should do it.
 
 The example demonstrates:
