@@ -3,6 +3,10 @@
 - Slides for Class 6 are now available, above, in R Markdown and in PDF. 
 - We will also post the audio recording, above, as soon as we can.
 
+## After Class Update
+
+I repaired several things we'd caught during class, and some things we hadn't in the [Right Heart Catheterization Case Study](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/rhc_2019). I've explained the changes [here](https://github.com/THOMASELOVE/2019-500/tree/master/data-and-code/rhc_2019). We'll review the changes in Class 7.
+
 ## Today's Agenda
 
 1. Project Details and Presentation of the 11 studies not yet discussed
